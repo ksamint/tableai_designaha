@@ -1,5 +1,19 @@
 [
   {
+    "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
+    "shortHash": "f6b8982",
+    "date": "2026-09-13T22:40:14-07:00",
+    "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
+    "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+  },
+  {
+    "hash": "04cf5f8e0f7e9e196089266276f7d976e5a2dc65",
+    "shortHash": "04cf5f8",
+    "date": "2026-09-14T13:38:58+08:00",
+    "message": "feat: link brand pages to GitHub sources",
+    "url": "https://github.com/fengurt/tableai_designaha/commit/04cf5f8e0f7e9e196089266276f7d976e5a2dc65"
+  },
+  {
     "hash": "74a829b2df1b50b1411b06dcf66a13ee6648c008",
     "shortHash": "74a829b",
     "date": "2026-09-01T17:03:57+08:00",
@@ -124,19 +138,5 @@
     "date": "2026-08-14T10:50:21+08:00",
     "message": "feat: expand popular font specimens",
     "url": "https://github.com/fengurt/tableai_designaha/commit/c6fb4325d24c2f589aa34a3f86abb4d648dbd010"
-  },
-  {
-    "hash": "fba7acc5b5316ed48bd988454c69e2e972e14cb1",
-    "shortHash": "fba7acc",
-    "date": "2026-08-14T09:33:01+08:00",
-    "message": "feat: expand open font directory",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/fba7acc5b5316ed48bd988454c69e2e972e14cb1"
-  },
-  {
-    "hash": "5e80f2b513fc05cfb9f8a20d8536ad6932718bb7",
-    "shortHash": "5e80f2b",
-    "date": "2026-08-14T09:07:01+08:00",
-    "message": "fix: match font samples to language filters",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/5e80f2b513fc05cfb9f8a20d8536ad6932718bb7"
   }
 ]

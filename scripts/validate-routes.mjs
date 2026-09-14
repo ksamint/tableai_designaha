@@ -47,6 +47,7 @@ if (!aboutPage.includes('href="mcp"') || !aboutPage.includes('href="agent.json"'
 const siteScript = await readFile(join(root, "site", "assets", "site.js"), "utf8");
 if (!siteScript.includes("function minimalReferenceText") || !siteScript.includes("data-copy-minimal")) throw new Error("minimal_copy_missing");
 if (!siteScript.includes("brand.source?.github") || !siteScript.includes(">GitHub ↗</a>")) throw new Error("brand_github_link_missing");
+if (!siteScript.includes("hero-index-github") || !siteScript.includes("brand.source.github")) throw new Error("hero_index_github_link_missing");
 if (!siteScript.includes("data-download-asset")) throw new Error("asset_download_missing");
 if (!siteScript.includes("function setupEvolutionMap()")) throw new Error("ip_evolution_map_script_missing");
 if (siteScript.includes("const heroName = isSidera") || siteScript.includes("const heroEyebrow = isSidera")) throw new Error("brand_display_logic_not_shared");

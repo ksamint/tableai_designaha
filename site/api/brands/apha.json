@@ -167,11 +167,11 @@
     "standalone"
   ],
   "version": {
-    "hash": "74a829b2df1b50b1411b06dcf66a13ee6648c008",
-    "shortHash": "74a829b",
-    "date": "2026-09-01T17:03:57+08:00",
-    "message": "feat: add interactive IP evolution map",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/74a829b2df1b50b1411b06dcf66a13ee6648c008"
+    "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
+    "shortHash": "f6b8982",
+    "date": "2026-09-13T22:40:14-07:00",
+    "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
+    "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
   },
   "historyUrl": "api/history/apha.json",
   "history": [
