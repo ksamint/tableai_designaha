@@ -6780,6 +6780,7 @@ async function renderBrand() {
           <div class="actions">
             <button class="button" type="button" data-copy-brand="\${escapeHtml(brand.slug)}" data-copy-minimal>\${escapeHtml(t("brand.copyMinimal"))}</button>
             \${brand.officialWebsite ? \`<a class="button ghost" href="\${escapeHtml(brand.officialWebsite)}">\${escapeHtml(t("brand.website"))}</a>\` : ""}
+            \${brand.source?.github ? \`<a class="button ghost" href="\${escapeHtml(brand.source.github)}" target="_blank" rel="noreferrer">GitHub ↗</a>\` : ""}
           </div>
         </div>
         \${hero ? \`

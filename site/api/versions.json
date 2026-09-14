@@ -1,5 +1,12 @@
 [
   {
+    "hash": "74a829b2df1b50b1411b06dcf66a13ee6648c008",
+    "shortHash": "74a829b",
+    "date": "2026-09-01T17:03:57+08:00",
+    "message": "feat: add interactive IP evolution map",
+    "url": "https://github.com/fengurt/tableai_designaha/commit/74a829b2df1b50b1411b06dcf66a13ee6648c008"
+  },
+  {
     "hash": "6d0b90a132ae2fe9197dd7bf0712e96880984f8e",
     "shortHash": "6d0b90a",
     "date": "2026-09-01T11:20:03+08:00",
@@ -131,12 +138,5 @@
     "date": "2026-08-14T09:07:01+08:00",
     "message": "fix: match font samples to language filters",
     "url": "https://github.com/fengurt/tableai_designaha/commit/5e80f2b513fc05cfb9f8a20d8536ad6932718bb7"
-  },
-  {
-    "hash": "c4a7413b32b95a3c06667d193628de2074912b88",
-    "shortHash": "c4a7413",
-    "date": "2026-08-14T08:39:51+08:00",
-    "message": "feat: show bilingual font specimens",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/c4a7413b32b95a3c06667d193628de2074912b88"
   }
 ]
