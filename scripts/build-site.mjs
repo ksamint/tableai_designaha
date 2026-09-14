@@ -1613,6 +1613,7 @@ function initialThemeStyle(theme = {}) {
 }
 
 const initialCopyIcon = `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="10" height="10" rx="2"></rect><path d="M5 15V7a2 2 0 0 1 2-2h8"></path></svg>`;
+const initialGithubIcon = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.82c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"></path></svg>`;
 const initialHeroIndexHtml = indexPayload.map((brand, idx) => {
   const primaryName = brand.mainName || brand.name;
   const localized = brand.mainLanguage === "zh" ? brand.display?.zh : brand.display?.en;
@@ -1623,6 +1624,7 @@ const initialHeroIndexHtml = indexPayload.map((brand, idx) => {
       <span class="hero-index-title">${escapeBuildHtml(primaryName)}${secondary ? ` <span class="hero-index-secondary">· ${escapeBuildHtml(secondary)}</span>` : ""}</span>
     </a>
     <span class="hero-index-colors" aria-hidden="true">${colors.map((value) => `<span class="color-dot" style="--dot:${escapeBuildHtml(value)}"></span>`).join("")}</span>
+    <a class="icon-copy hero-index-github" href="${escapeBuildHtml(brand.source.github)}" target="_blank" rel="noreferrer" aria-label="GitHub: ${escapeBuildHtml(primaryName)}">${initialGithubIcon}</a>
     <span class="icon-copy" aria-hidden="true">${initialCopyIcon}</span>
   </div>`;
 }).join("");
@@ -2483,7 +2485,7 @@ p { line-height: 1.65; }
 .hero-index::-webkit-scrollbar { display: none; }
 .hero-index-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content max-content;
+  grid-template-columns: minmax(0, 1fr) max-content max-content max-content;
   align-items: center;
   gap: 12px;
   border: 1px solid color-mix(in srgb, var(--brand-primary, var(--blue)) 16%, transparent);
@@ -2535,6 +2537,7 @@ p { line-height: 1.65; }
   gap: 5px;
 }
 .hero-index-row .icon-copy { flex: 0 0 auto; }
+.hero-index-github svg { fill: currentColor; stroke: none; }
 .hero-index-row[data-brand="sidera"] { color: var(--brand-ink); }
 .hero-index-row[data-brand="sidera"] .icon-copy { color: var(--brand-ink); }
 .color-dot {
@@ -4339,7 +4342,7 @@ textarea { min-height: 520px; font-family: ui-monospace, SFMono-Regular, Menlo, 
   .adobe-source-preview { min-height: 220px; border-right: 0; border-bottom: 1px solid var(--brand-line, var(--line)); }
   .hub-hero { min-height: auto; padding-top: 36px; }
   .hero-index { align-self: stretch; }
-  .hero-index-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .hero-index-row { grid-template-columns: minmax(0, 1fr) auto auto; }
   .hero-index-colors { display: none; }
   .entry-portals { grid-template-columns: 1fr; }
   .portal-agent { grid-template-columns: 1fr; }
@@ -5209,6 +5212,10 @@ function imageDimensionAttributes(asset = {}) {
 
 function copyIcon() {
   return \`<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="10" height="10" rx="2"></rect><path d="M5 15V7a2 2 0 0 1 2-2h8"></path></svg>\`;
+}
+
+function githubIcon() {
+  return \`${initialGithubIcon}\`;
 }
 
 function downloadIcon() {
@@ -6653,6 +6660,7 @@ async function renderHeroIndex() {
           <span class="hero-index-title">\${escapeHtml(localized.name)}\${localized.secondaryName ? \` <span class="hero-index-secondary">· \${escapeHtml(localized.secondaryName)}</span>\` : ""}</span>
         </a>
         \${colorDots(brand.theme)}
+        <a class="icon-copy hero-index-github" href="\${escapeHtml(brand.source.github)}" target="_blank" rel="noreferrer" aria-label="GitHub: \${escapeHtml(localized.name)}">\${githubIcon()}</a>
         <button class="icon-copy" type="button" data-icon-only="true" data-copy-brand="\${escapeHtml(brand.slug)}" aria-label="\${escapeHtml(t("copy.reference"))} \${escapeHtml(localized.name)}">\${copyIcon()}</button>
       </div>
     \`;
