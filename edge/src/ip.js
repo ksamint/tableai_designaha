@@ -47,6 +47,7 @@ function ipValue(row, industries = []) {
     sourceUrl: row.source_url,
     sourcePublisher: row.source_publisher,
     verificationStatus: row.verification_status,
+    designSystemUrl: parseJson(row.payload_json, {}).designSystemUrl || "",
     payload: parseJson(row.payload_json, {}),
     version: row.version,
     updatedAt: row.updated_at,

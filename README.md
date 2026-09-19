@@ -38,3 +38,7 @@ KiND ships as a **Cursor plugin** (`.cursor-plugin/plugin.json`) bundling the `k
 The skill works standalone (it reads its bundled `tokens.json`). The MCP server is optional and needs its deps first: `cd mcp && npm install`. Keep the bundled snapshot current with `npm run sync:skill` after editing canonical tokens.
 
 Tiansight uses `tiansight` publicly. The legacy `sidera` database and asset IDs remain stable for existing API clients and media URLs.
+
+## Dedicated design systems
+
+Each owned IP has a dedicated repository under `ksamint`. See the [complete repository directory](docs/design-system-repositories.md). `config/brands.json` records each `designSystemUrl`, which is published on the homepage, brand/IP pages, directory, brand API, and agent references.

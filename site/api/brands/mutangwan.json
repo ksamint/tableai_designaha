@@ -69,6 +69,7 @@
       "en": []
     }
   },
+  "designSystemUrl": "https://github.com/ksamint/dsys_mutangwan",
   "assetKey": "mutangwan",
   "mainName": "睦堂湾",
   "mainLocale": "CN",
@@ -147,14 +148,26 @@
     "child"
   ],
   "version": {
-    "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
-    "shortHash": "1ba46da",
-    "date": "2026-09-13T23:29:41-07:00",
-    "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
+    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+    "shortHash": "17e8486",
+    "date": "2026-09-19T20:28:40+08:00",
+    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b"
   },
   "historyUrl": "api/history/mutangwan.json",
   "history": [
+    {
+      "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+      "shortHash": "17e8486",
+      "date": "2026-09-19T20:28:40+08:00",
+      "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b",
+      "sourcePaths": [
+        "config/brands.json",
+        "Mutangwan",
+        "Mutangwan/README.md"
+      ]
+    },
     {
       "hash": "6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
       "shortHash": "6c28043",
@@ -209,18 +222,6 @@
       "date": "2026-07-20T13:58:19+08:00",
       "message": "feat: add food brand architecture and edge performance",
       "url": "https://github.com/ksamint/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
-      "sourcePaths": [
-        "config/brands.json",
-        "Mutangwan",
-        "Mutangwan/README.md"
-      ]
-    },
-    {
-      "hash": "bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
-      "shortHash": "bc7b985",
-      "date": "2026-07-20T08:12:03+08:00",
-      "message": "feat: add IP taxonomy and brand architecture",
-      "url": "https://github.com/ksamint/tableai_designaha/commit/bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
       "sourcePaths": [
         "config/brands.json",
         "Mutangwan",

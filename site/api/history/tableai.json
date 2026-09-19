@@ -13,11 +13,11 @@
     "TABLEAI/TableAI_DESIGN.md"
   ],
   "latest": {
-    "hash": "6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
-    "shortHash": "6c28043",
-    "date": "2026-08-14T08:33:39+08:00",
-    "message": "feat: streamline brand pages and publish tiansight slug",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
+    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+    "shortHash": "17e8486",
+    "date": "2026-09-19T20:28:40+08:00",
+    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b",
     "sourcePaths": [
       "config/brands.json",
       "TABLEAI",
@@ -25,6 +25,18 @@
     ]
   },
   "versions": [
+    {
+      "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+      "shortHash": "17e8486",
+      "date": "2026-09-19T20:28:40+08:00",
+      "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b",
+      "sourcePaths": [
+        "config/brands.json",
+        "TABLEAI",
+        "TABLEAI/TableAI_DESIGN.md"
+      ]
+    },
     {
       "hash": "6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
       "shortHash": "6c28043",
@@ -247,18 +259,6 @@
       "date": "2026-07-05T10:48:18+08:00",
       "message": "Add transparent Table AI logo",
       "url": "https://github.com/ksamint/tableai_designaha/commit/542890fcc565ebcb28a3b1cd1113563d1535f5cf",
-      "sourcePaths": [
-        "config/brands.json",
-        "TABLEAI",
-        "TABLEAI/TableAI_DESIGN.md"
-      ]
-    },
-    {
-      "hash": "067a47c76f1cb812b607335089911c282f4d8f78",
-      "shortHash": "067a47c",
-      "date": "2026-07-05T10:24:24+08:00",
-      "message": "Add Sanctem IP and brand logos",
-      "url": "https://github.com/ksamint/tableai_designaha/commit/067a47c76f1cb812b607335089911c282f4d8f78",
       "sourcePaths": [
         "config/brands.json",
         "TABLEAI",

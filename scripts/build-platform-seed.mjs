@@ -58,6 +58,7 @@ for (const brand of brands) {
   if (!existsSync(path)) throw new Error(`brand_payload_missing:${brand.slug}`);
   const payload = runtimeBrandPayload(JSON.parse(await readFile(path, "utf8")));
   statements.push(`INSERT INTO brand_records(slug,payload_json,version,created_at,updated_at) VALUES(${q(brand.slug)},${q(JSON.stringify(payload))},1,${q(timestamp)},${q(timestamp)}) ON CONFLICT(slug) DO UPDATE SET payload_json=excluded.payload_json,updated_at=excluded.updated_at WHERE brand_records.version<=excluded.version;`);
+  statements.push(`UPDATE brand_records SET payload_json=json_set(payload_json, '$.designSystemUrl', ${q(brand.designSystemUrl)}) WHERE slug=${q(brand.slug)};`);
   const classification = ipSystem.owned[brand.slug];
   if (!classification) throw new Error(`ip_classification_missing:${brand.slug}`);
   seedIpRecord({
@@ -75,6 +76,10 @@ for (const brand of brands) {
     verificationStatus: brand.sources?.length ? (brand.sources.some((source) => source.confidence === "government") ? "source-verified" : "source-documented") : "provisional",
     payload,
   });
+}
+
+for (const brand of brands) {
+  statements.push(`UPDATE ip_records SET payload_json=json_set(payload_json, '$.designSystemUrl', ${q(brand.designSystemUrl)}) WHERE slug=${q(brand.slug)};`);
 }
 
 for (const reference of ipSystem.references) {

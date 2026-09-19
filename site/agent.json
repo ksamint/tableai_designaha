@@ -82,12 +82,12 @@
       }
     }
   },
-  "generatedAt": "2026-09-19T12:28:06.186Z",
+  "generatedAt": "2026-09-19T12:57:58.184Z",
   "version": {
-    "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
-    "shortHash": "1ba46da",
-    "date": "2026-09-13T23:29:41-07:00",
-    "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
+    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+    "shortHash": "17e8486",
+    "date": "2026-09-19T20:28:40+08:00",
+    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b"
   }
 }

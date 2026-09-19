@@ -44,6 +44,19 @@ if (!aboutPage.includes('<base href="../">')) throw new Error("about_base_missin
 if (!aboutPage.includes('rel="canonical" href="https://apuch.art/about/"')) throw new Error("about_canonical");
 if (!aboutPage.includes('href="mcp"') || !aboutPage.includes('href="agent.json"')) throw new Error("about_agent_docs_missing");
 
+const brands = JSON.parse(await readFile(join(root, "config/brands.json"), "utf8"));
+const ips = JSON.parse(await readFile(join(root, "site/api/ips.json"), "utf8"));
+const repositories = new Set();
+for (const brand of brands) {
+  const expected = `https://github.com/ksamint/${brand.slug === "sidera" ? "dsys_tiansight01" : `dsys_${brand.slug}`}`;
+  if (brand.designSystemUrl !== expected || repositories.has(expected)) throw new Error(`design_system_repository:${brand.slug}`);
+  repositories.add(expected);
+  const payload = JSON.parse(await readFile(join(root, `site/api/brands/${brand.publicSlug || brand.slug}.json`), "utf8"));
+  if (payload.designSystemUrl !== expected) throw new Error(`design_system_api:${brand.slug}`);
+  if (ips.items.find((ip) => ip.slug === brand.slug)?.designSystemUrl !== expected) throw new Error(`design_system_ip:${brand.slug}`);
+  if (!homePage.includes(`href="${expected}"`)) throw new Error(`design_system_home:${brand.slug}`);
+}
+
 const tiansight = JSON.parse(await readFile(join(root, "site/api/brands/tiansight.json"), "utf8"));
 const legacyTiansight = JSON.parse(await readFile(join(root, "site/api/brands/sidera.json"), "utf8"));
 if (JSON.stringify(tiansight) !== JSON.stringify(legacyTiansight)) throw new Error("tiansight_legacy_api_mismatch");
@@ -53,11 +66,12 @@ if (!tiansight.images.length || tiansight.images.some((image) => !image.path.sta
 
 const siteScript = await readFile(join(root, "site", "assets", "site.js"), "utf8");
 if (!siteScript.includes("function minimalReferenceText") || !siteScript.includes("data-copy-minimal")) throw new Error("minimal_copy_missing");
-if (!siteScript.includes("brand.source?.github") || !siteScript.includes(">GitHub ↗</a>")) throw new Error("brand_github_link_missing");
+if (!siteScript.includes("brand.designSystemUrl || brand.source?.github") || !siteScript.includes('"Design system" : "设计系统"')) throw new Error("brand_github_link_missing");
 if (!siteScript.includes("hero-index-github") || !siteScript.includes("brand.source.github")) throw new Error("hero_index_github_link_missing");
 if (!siteScript.includes("data-download-asset")) throw new Error("asset_download_missing");
 if (!siteScript.includes("function setupEvolutionMap()")) throw new Error("ip_evolution_map_script_missing");
 if (siteScript.includes("const heroName = isSidera") || siteScript.includes("const heroEyebrow = isSidera")) throw new Error("brand_display_logic_not_shared");
+if (!siteScript.includes("directory-design-system") || !siteScript.includes("ip.designSystemUrl")) throw new Error("design_system_directory_link");
 if (siteScript.includes("setupDirectoryLink")) throw new Error("dynamic_directory_link_regression");
 
 if (mediaDownloadName(new URL("https://media.apuch.art/public/ip/logo/original.png?download=brand-logo.png"), "/public/ip/logo/original.png") !== "brand-logo.png") throw new Error("asset_download_name");

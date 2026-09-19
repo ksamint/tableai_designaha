@@ -579,6 +579,7 @@ function apiSchemaPayload() {
     brandFields: {
       slug: "Stable IP ID / asset key used by URLs and agent calls.",
       assetKey: "Human-readable alias for slug in asset and agent contexts.",
+      designSystemUrl: "Dedicated design-system GitHub repository URL.",
       folder: "Local source folder.",
       name: "Configured public/English name.",
       nativeName: "Configured native/Chinese or alternate name.",
@@ -1210,7 +1211,7 @@ const openApiPayload = {
 };
 await writeFile(join(apiDir, "brands.json"), JSON.stringify(indexPayload, null, 2));
 const staticIps = [
-  ...indexPayload.map((brand) => ({ slug: brand.slug, recordClass: "owned", ipType: brand.ipType, primaryIndustry: brand.primaryIndustry, industries: brand.industries, names: { zh: brand.display?.zh?.name || brand.name, en: brand.nativeName || (brand.mainLanguage === "en" ? brand.name : "") }, mainLanguage: brand.mainLanguage, lifecycleStatus: brand.lifecycleStatus, guidelineMode: brand.guidelineMode, parentCapable: brand.parentCapable, architectureRoles: brand.architectureRoles, sourceUrl: brand.sources?.[0]?.url || brand.officialWebsite || "", sourcePublisher: brand.sources?.[0]?.publisher || "", verificationStatus: brand.sources?.length ? "source-documented" : "provisional", logoUrl: brand.logoUrl || brand.heroImage || "", url: brand.url })),
+  ...indexPayload.map((brand) => ({ slug: brand.slug, recordClass: "owned", ipType: brand.ipType, primaryIndustry: brand.primaryIndustry, industries: brand.industries, names: { zh: brand.display?.zh?.name || brand.name, en: brand.nativeName || (brand.mainLanguage === "en" ? brand.name : "") }, mainLanguage: brand.mainLanguage, lifecycleStatus: brand.lifecycleStatus, guidelineMode: brand.guidelineMode, parentCapable: brand.parentCapable, architectureRoles: brand.architectureRoles, sourceUrl: brand.sources?.[0]?.url || brand.officialWebsite || "", sourcePublisher: brand.sources?.[0]?.publisher || "", verificationStatus: brand.sources?.length ? "source-documented" : "provisional", logoUrl: brand.logoUrl || brand.heroImage || "", url: brand.url, designSystemUrl: brand.designSystemUrl })),
   ...ipSystem.references.map((item) => ({ ...item, recordClass: "reference", lifecycleStatus: "active", guidelineMode: "independent", parentCapable: Boolean(item.parentCapable), architectureRoles: architectureRolesFor(item.slug, item.parentCapable), url: `ip?ip=${item.slug}` })),
 ];
 await writeFile(join(apiDir, "taxonomy.json"), JSON.stringify(ipSystem.taxonomy, null, 2));
@@ -1543,7 +1544,7 @@ await writeFile(join(siteDir, "llms.txt"), [
   ...fontCatalog.fonts.map((font) => `- ${font.name}${font.nameZh && font.nameZh !== font.name ? ` / ${font.nameZh}` : ""}: ${font.license.spdx} · ${font.source.projectUrl}`),
   "",
   "Brands:",
-  ...indexPayload.map((brand) => `- ${brand.mainName} (${brand.publicSlug || brand.slug}; assetKey ${brand.slug}): /${brand.apiUrl} · mainLocale ${brand.mainLocale} · palette ${brand.theme?.primary ?? "n/a"} / ${brand.theme?.accent ?? "n/a"}`),
+  ...indexPayload.map((brand) => `- ${brand.mainName} (${brand.publicSlug || brand.slug}; assetKey ${brand.slug}): /${brand.apiUrl} · design system ${brand.designSystemUrl} · mainLocale ${brand.mainLocale} · palette ${brand.theme?.primary ?? "n/a"} / ${brand.theme?.accent ?? "n/a"}`),
 ].join("\n"));
 
 await writeFile(join(siteDir, "site.webmanifest"), JSON.stringify({
@@ -1624,7 +1625,7 @@ const initialHeroIndexHtml = indexPayload.map((brand, idx) => {
       <span class="hero-index-title">${escapeBuildHtml(primaryName)}${secondary ? ` <span class="hero-index-secondary">· ${escapeBuildHtml(secondary)}</span>` : ""}</span>
     </a>
     <span class="hero-index-colors" aria-hidden="true">${colors.map((value) => `<span class="color-dot" style="--dot:${escapeBuildHtml(value)}"></span>`).join("")}</span>
-    <a class="icon-copy hero-index-github" href="${escapeBuildHtml(brand.source.github)}" target="_blank" rel="noreferrer" aria-label="GitHub: ${escapeBuildHtml(primaryName)}">${initialGithubIcon}</a>
+    <a class="icon-copy hero-index-github" href="${escapeBuildHtml(brand.designSystemUrl || brand.source.github)}" target="_blank" rel="noreferrer" title="Design system / 设计系统" aria-label="Design system: ${escapeBuildHtml(primaryName)}">${initialGithubIcon}</a>
     <span class="icon-copy" aria-hidden="true">${initialCopyIcon}</span>
   </div>`;
 }).join("");
@@ -4286,6 +4287,7 @@ textarea { min-height: 520px; font-family: ui-monospace, SFMono-Regular, Menlo, 
 .directory-filters input, .directory-filters select, .directory-filters button { min-height: 42px; margin: 0; border-radius: 2px; }
 .directory-list { border-top: 1px solid var(--line); }
 .directory-row { display: grid; grid-template-columns: minmax(220px, 2fr) 1.15fr 1.15fr 1fr 24px; gap: 16px; align-items: center; min-height: 68px; border-bottom: 1px solid var(--line); text-decoration: none; transition: padding .2s ease, background .2s ease; }
+.directory-design-system { display: inline-block; padding: 8px 0; font-size: 12px; }
 .directory-row:hover { padding: 0 12px; background: var(--paper); }
 .directory-row > span:not(.directory-name) { color: var(--muted); font-size: 12px; }
 .directory-name { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
@@ -5475,6 +5477,7 @@ function referenceText(brand = {}) {
     "[Links]",
     \`IP page: \${ipPageUrl}\`,
     \`Logo URL: \${logoUrl}\`,
+    \`Design system: \${brand.designSystemUrl || "TBD"}\`,
     \`Official website: \${brand.officialWebsite || "TBD"}\`,
     \`Brand API: \${apiUrl}\`,
     \`Assets API: \${assetApiUrl}\`,
@@ -5518,6 +5521,7 @@ function minimalReferenceText(brand = {}) {
     \`主色: \${brand.theme?.primary || "TBD"}\`,
     \`辅助色: \${brand.theme?.accent || brand.theme?.secondary || "TBD"}\`,
     \`透明 PNG: \${transparentLogo?.sitePath || "暂无"}\`,
+    \`设计系统: \${brand.designSystemUrl || "暂无"}\`,
   ].join("\\n");
 }
 
@@ -6660,7 +6664,7 @@ async function renderHeroIndex() {
           <span class="hero-index-title">\${escapeHtml(localized.name)}\${localized.secondaryName ? \` <span class="hero-index-secondary">· \${escapeHtml(localized.secondaryName)}</span>\` : ""}</span>
         </a>
         \${colorDots(brand.theme)}
-        <a class="icon-copy hero-index-github" href="\${escapeHtml(brand.source.github)}" target="_blank" rel="noreferrer" aria-label="GitHub: \${escapeHtml(localized.name)}">\${githubIcon()}</a>
+        <a class="icon-copy hero-index-github" href="\${escapeHtml(brand.designSystemUrl || brand.source.github)}" target="_blank" rel="noreferrer" title="Design system / 设计系统" aria-label="Design system: \${escapeHtml(localized.name)}">\${githubIcon()}</a>
         <button class="icon-copy" type="button" data-icon-only="true" data-copy-brand="\${escapeHtml(brand.slug)}" aria-label="\${escapeHtml(t("copy.reference"))} \${escapeHtml(localized.name)}">\${copyIcon()}</button>
       </div>
     \`;
@@ -6788,7 +6792,7 @@ async function renderBrand() {
           <div class="actions">
             <button class="button" type="button" data-copy-brand="\${escapeHtml(brand.slug)}" data-copy-minimal>\${escapeHtml(t("brand.copyMinimal"))}</button>
             \${brand.officialWebsite ? \`<a class="button ghost" href="\${escapeHtml(brand.officialWebsite)}">\${escapeHtml(t("brand.website"))}</a>\` : ""}
-            \${brand.source?.github ? \`<a class="button ghost" href="\${escapeHtml(brand.source.github)}" target="_blank" rel="noreferrer">GitHub ↗</a>\` : ""}
+            \${brand.designSystemUrl || brand.source?.github ? \`<a class="button ghost" href="\${escapeHtml(brand.designSystemUrl || brand.source.github)}" target="_blank" rel="noreferrer">\${currentLocale === "en" ? "Design system" : "设计系统"} ↗</a>\` : ""}
           </div>
         </div>
         \${hero ? \`
@@ -6892,7 +6896,7 @@ async function renderDirectory() {
     <section class="directory-list">\${filtered.map((ip) => {
       const parentIp = data.ips.find((candidate) => candidate.slug === parents.get(ip.slug));
       const href = ip.recordClass === "owned" ? (ip.url || \`brand.html?brand=\${ip.slug}\`) : \`ip?ip=\${ip.slug}\`;
-      return \`<a class="directory-row" href="\${escapeHtml(href)}"><span class="directory-name"><strong>\${escapeHtml(primaryIpName(ip))}</strong>\${secondaryIpName(ip) ? \`<small>\${escapeHtml(secondaryIpName(ip))}</small>\` : ""}</span><span>\${escapeHtml(taxonomyLabel((data.taxonomy.industries || []).find((item) => item.id === ip.primaryIndustry)))}</span><span>\${escapeHtml(taxonomyLabel((data.taxonomy.ipTypes || []).find((item) => item.id === ip.ipType)))}</span><span>\${parentIp ? \`↳ \${escapeHtml(primaryIpName(parentIp))}\` : ""}</span><b>↗</b></a>\`;
+      return \`<div class="directory-entry"><a class="directory-row" href="\${escapeHtml(href)}"><span class="directory-name"><strong>\${escapeHtml(primaryIpName(ip))}</strong>\${secondaryIpName(ip) ? \`<small>\${escapeHtml(secondaryIpName(ip))}</small>\` : ""}</span><span>\${escapeHtml(taxonomyLabel((data.taxonomy.industries || []).find((item) => item.id === ip.primaryIndustry)))}</span><span>\${escapeHtml(taxonomyLabel((data.taxonomy.ipTypes || []).find((item) => item.id === ip.ipType)))}</span><span>\${parentIp ? \`↳ \${escapeHtml(primaryIpName(parentIp))}\` : ""}</span><b>↗</b></a>\${ip.designSystemUrl ? \`<a class="directory-design-system" href="\${escapeHtml(ip.designSystemUrl)}" target="_blank" rel="noreferrer">\${currentLocale === "en" ? "Design system" : "设计系统"} ↗</a>\` : ""}</div>\`;
     }).join("") || \`<p class="empty-state">\${escapeHtml(t("home.noResults"))}</p>\`}</section>
     <section class="application-directory"><header><p class="eyebrow">Applications</p><h2>\${currentLocale === "en" ? "Project applications" : "项目应用"}</h2></header>\${data.applications.map((app) => \`<a href="application?application=\${escapeHtml(app.slug)}"><strong>\${escapeHtml(app.mainLanguage === "en" ? (app.names?.en || app.names?.zh) : (app.names?.zh || app.names?.en))}</strong><span>\${escapeHtml(app.applicationType)}</span><b>↗</b></a>\`).join("")}</section>
   \`;
@@ -6922,7 +6926,7 @@ async function renderIpRecord() {
   const graph = await loadGraph(slug);
   if (!graph) { page.innerHTML = \`<p class="empty-state">IP not found.</p>\`; return; }
   const ip = graph.ip;
-  page.innerHTML = \`<article class="record-detail"><p class="eyebrow">\${escapeHtml(ip.recordClass)} · \${escapeHtml(ip.ipType)}</p><h1>\${escapeHtml(primaryIpName(ip))}</h1><p class="record-secondary">\${escapeHtml(secondaryIpName(ip))}</p><div class="record-facts"><span>\${escapeHtml(ip.primaryIndustry)}</span><span>\${escapeHtml(ip.lifecycleStatus)}</span><span>\${escapeHtml(ip.guidelineMode)}</span></div>\${ip.sourceUrl ? \`<a class="button" href="\${escapeHtml(ip.sourceUrl)}" rel="noreferrer">Official source ↗</a>\` : ""}</article>\${graph.parents?.length ? \`<section class="lineage-block"><p class="eyebrow">Parent IP</p>\${graph.parents.map((relation) => \`<a href="ip?ip=\${relation.parent}">\${escapeHtml(relation.parentNames?.zh || relation.parentNames?.en || relation.parent)}</a>\`).join("")}</section>\` : ""}\${graph.children?.length ? \`<section class="lineage-block"><p class="eyebrow">Child IP</p>\${graph.children.map((relation) => \`<a href="ip?ip=\${relation.child}">\${escapeHtml(relation.childNames?.zh || relation.childNames?.en || relation.child)}</a>\`).join("")}</section>\` : ""}\${graph.applications?.length ? \`<section class="lineage-block"><p class="eyebrow">Applications</p>\${graph.applications.map((app) => \`<a href="application?application=\${app.slug}">\${escapeHtml(primaryIpName(app))}</a>\`).join("")}</section>\` : ""}\`;
+  page.innerHTML = \`<article class="record-detail"><p class="eyebrow">\${escapeHtml(ip.recordClass)} · \${escapeHtml(ip.ipType)}</p><h1>\${escapeHtml(primaryIpName(ip))}</h1><p class="record-secondary">\${escapeHtml(secondaryIpName(ip))}</p><div class="record-facts"><span>\${escapeHtml(ip.primaryIndustry)}</span><span>\${escapeHtml(ip.lifecycleStatus)}</span><span>\${escapeHtml(ip.guidelineMode)}</span></div>\${ip.designSystemUrl ? \`<a class="button" href="\${escapeHtml(ip.designSystemUrl)}" target="_blank" rel="noreferrer">\${currentLocale === "en" ? "Design system" : "设计系统"} ↗</a>\` : ""}\${ip.sourceUrl ? \`<a class="button" href="\${escapeHtml(ip.sourceUrl)}" rel="noreferrer">Official source ↗</a>\` : ""}</article>\${graph.parents?.length ? \`<section class="lineage-block"><p class="eyebrow">Parent IP</p>\${graph.parents.map((relation) => \`<a href="ip?ip=\${relation.parent}">\${escapeHtml(relation.parentNames?.zh || relation.parentNames?.en || relation.parent)}</a>\`).join("")}</section>\` : ""}\${graph.children?.length ? \`<section class="lineage-block"><p class="eyebrow">Child IP</p>\${graph.children.map((relation) => \`<a href="ip?ip=\${relation.child}">\${escapeHtml(relation.childNames?.zh || relation.childNames?.en || relation.child)}</a>\`).join("")}</section>\` : ""}\${graph.applications?.length ? \`<section class="lineage-block"><p class="eyebrow">Applications</p>\${graph.applications.map((app) => \`<a href="application?application=\${app.slug}">\${escapeHtml(primaryIpName(app))}</a>\`).join("")}</section>\` : ""}\`;
 }
 
 async function renderApplicationPage() {
@@ -7537,6 +7541,7 @@ ${commonDiscoveryHead("../")}
   <header class="story-top">
     <a href="../brand.html?brand=kaoyu-shenhua">← 烤鱼神话 IP</a>
     <a href="../brand.html?brand=kaoyu-shenhua#kaoyu-story">IP 页故事区</a>
+    <a href="${escapeBuildHtml(kaoyuBrand.designSystemUrl)}" target="_blank" rel="noreferrer">设计系统 ↗</a>
   </header>
   <section class="story-hero">
     <p class="eyebrow">KAOYUSHENHUA</p>

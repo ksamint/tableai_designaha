@@ -70,6 +70,7 @@ function guidelineValue(value, includeSourceText = true) {
       zh: value.display?.zh?.name || "",
       en: value.display?.en?.name || "",
     },
+    designSystemUrl: value.designSystemUrl || "",
     officialWebsite: value.officialWebsite || "",
     intro: value.intro || value.profile?.intro || {},
     business: value.business || value.profile?.business || {},
@@ -98,7 +99,7 @@ function ipValue(row, industries = []) {
   const architectureRoles = [];
   if (Boolean(row.parent_capable) || Boolean(row.has_children)) architectureRoles.push("parent");
   if (Boolean(row.has_parent)) architectureRoles.push("child");
-  return { slug: row.slug, recordClass: row.record_class, ipType: row.ip_type, primaryIndustry: row.primary_industry, industries, names: parseJson(row.names_json), mainLanguage: row.main_language, lifecycleStatus: row.lifecycle_status, guidelineMode: row.guideline_mode, parentCapable: Boolean(row.parent_capable), architectureRoles: architectureRoles.length ? architectureRoles : ["standalone"], sourceUrl: row.source_url, sourcePublisher: row.source_publisher, verificationStatus: row.verification_status, payload: parseJson(row.payload_json), version: row.version, updatedAt: row.updated_at };
+  return { slug: row.slug, recordClass: row.record_class, ipType: row.ip_type, primaryIndustry: row.primary_industry, industries, names: parseJson(row.names_json), mainLanguage: row.main_language, lifecycleStatus: row.lifecycle_status, guidelineMode: row.guideline_mode, parentCapable: Boolean(row.parent_capable), architectureRoles: architectureRoles.length ? architectureRoles : ["standalone"], sourceUrl: row.source_url, sourcePublisher: row.source_publisher, verificationStatus: row.verification_status, designSystemUrl: parseJson(row.payload_json).designSystemUrl || "", payload: parseJson(row.payload_json), version: row.version, updatedAt: row.updated_at };
 }
 
 async function listIps(env, args = {}) {

@@ -24,6 +24,7 @@ jobs:
       - run: npm run validate:ip
       - run: npm run validate:fonts
       - run: npm run validate:routes
+      - run: python3 scripts/check-design-system-seed.py
       - run: |
           node --check edge/src/index.js
           node --check edge/src/api.js

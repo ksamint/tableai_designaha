@@ -1,5 +1,12 @@
 [
   {
+    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
+    "shortHash": "17e8486",
+    "date": "2026-09-19T20:28:40+08:00",
+    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b"
+  },
+  {
     "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
     "shortHash": "1ba46da",
     "date": "2026-09-13T23:29:41-07:00",
@@ -131,12 +138,5 @@
     "date": "2026-08-14T11:25:49+08:00",
     "message": "chore: enforce commercial font provenance",
     "url": "https://github.com/fengurt/tableai_designaha/commit/721d34a6e85da0b6334a8429a990804fa34f8024"
-  },
-  {
-    "hash": "e83fd292706dc1739a84dc2cc7ad19f8027b870b",
-    "shortHash": "e83fd29",
-    "date": "2026-08-14T11:14:27+08:00",
-    "message": "fix: contain mobile font specimens",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/e83fd292706dc1739a84dc2cc7ad19f8027b870b"
   }
 ]

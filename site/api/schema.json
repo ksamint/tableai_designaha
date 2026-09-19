@@ -46,6 +46,7 @@
   "brandFields": {
     "slug": "Stable IP ID / asset key used by URLs and agent calls.",
     "assetKey": "Human-readable alias for slug in asset and agent contexts.",
+    "designSystemUrl": "Dedicated design-system GitHub repository URL.",
     "folder": "Local source folder.",
     "name": "Configured public/English name.",
     "nativeName": "Configured native/Chinese or alternate name.",
