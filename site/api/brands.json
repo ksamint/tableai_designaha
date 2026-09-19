@@ -166,11 +166,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/tableai.json",
     "publicSlug": "tableai",
@@ -549,7 +549,7 @@
       "TABLEAI/TableAI_DESIGN.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/TABLEAI",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/TABLEAI",
       "folder": "TABLEAI"
     },
     "guideCount": 1,
@@ -727,11 +727,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/vanahom.json",
     "publicSlug": "vanahom",
@@ -2029,7 +2029,7 @@
       "VANAHOM/vanahom_design.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/VANAHOM",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/VANAHOM",
       "folder": "VANAHOM"
     },
     "guideCount": 1,
@@ -2206,11 +2206,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/sanctem.json",
     "publicSlug": "sanctem",
@@ -2876,7 +2876,7 @@
       "Sanctem/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Sanctem",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Sanctem",
       "folder": "Sanctem"
     },
     "guideCount": 1,
@@ -3053,11 +3053,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/kind.json",
     "publicSlug": "kind",
@@ -3245,7 +3245,7 @@
       "KiND/preview.html"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/KiND",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/KiND",
       "folder": "KiND"
     },
     "guideCount": 3,
@@ -3424,11 +3424,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/apha.json",
     "publicSlug": "apha",
@@ -3614,7 +3614,7 @@
       "APHA/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/APHA",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/APHA",
       "folder": "APHA"
     },
     "guideCount": 1,
@@ -3791,11 +3791,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/manaendless.json",
     "publicSlug": "manaendless",
@@ -3979,7 +3979,7 @@
     },
     "editablePaths": [],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/MANAENDLESS",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/MANAENDLESS",
       "folder": "MANAENDLESS"
     },
     "guideCount": 0,
@@ -4156,11 +4156,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/opcglobal.json",
     "publicSlug": "opcglobal",
@@ -4994,7 +4994,7 @@
     },
     "editablePaths": [],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/OPCGLOBAL",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/OPCGLOBAL",
       "folder": "OPCGLOBAL"
     },
     "guideCount": 0,
@@ -5171,11 +5171,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/iptrust.json",
     "publicSlug": "iptrust",
@@ -6502,7 +6502,7 @@
     },
     "editablePaths": [],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/IPTRUST",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/IPTRUST",
       "folder": "IPTRUST"
     },
     "guideCount": 0,
@@ -6679,11 +6679,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/fengzhi.json",
     "publicSlug": "fengzhi",
@@ -7074,7 +7074,7 @@
       "FENGZHI/slides/slide-stat.html"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/FENGZHI",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/FENGZHI",
       "folder": "FENGZHI"
     },
     "guideCount": 23,
@@ -7251,11 +7251,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/axisee.json",
     "publicSlug": "axisee",
@@ -7506,7 +7506,7 @@
       "Axisee/axisee_design.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Axisee",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Axisee",
       "folder": "Axisee"
     },
     "guideCount": 1,
@@ -7519,7 +7519,7 @@
   {
     "slug": "sidera",
     "publicSlug": "tiansight",
-    "folder": "Sidera",
+    "folder": "Tiansight",
     "name": "侍天 - 智慧餐饮",
     "nativeName": "tiansight",
     "description": "侍天是面向智慧餐饮、饮食知识与餐饮品牌内容系统的中文优先 IP。",
@@ -7537,7 +7537,7 @@
       "zh": "参考链接：https://frienji.kenjilopezalt.com/；https://www.seriouseats.com/",
       "en": "Reference links: https://frienji.kenjilopezalt.com/; https://www.seriouseats.com/"
     },
-    "primaryGuide": "Sidera/sidera_design.md",
+    "primaryGuide": "Tiansight/tiansight_design.md",
     "theme": {
       "mode": "light",
       "primary": "#EFE6D2",
@@ -7690,11 +7690,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/sidera.json",
     "url": "brand.html?brand=tiansight",
@@ -7706,9 +7706,9 @@
         "ownerType": "owned-ip",
         "ownerId": "sidera",
         "role": "hero",
-        "title": "sidera brand hero",
+        "title": "tiansight brand hero",
         "access": "public",
-        "sourcePath": "Sidera/assets/brand-images/sidera-brand-hero.png",
+        "sourcePath": "Tiansight/assets/brand-images/sidera-brand-hero.png",
         "sourceFilename": "sidera-brand-hero.png",
         "sha256": "3501c8d23cb5507005b8d8dea3904e72dbc849783b039a90406b976f7fbf7672",
         "mimeType": "image/png",
@@ -7731,9 +7731,9 @@
         "ownerType": "owned-ip",
         "ownerId": "sidera",
         "role": "logo",
-        "title": "sidera logo document transparent",
+        "title": "tiansight logo document transparent",
         "access": "public",
-        "sourcePath": "Sidera/assets/brand-images/sidera-logo-document-transparent.png",
+        "sourcePath": "Tiansight/assets/brand-images/sidera-logo-document-transparent.png",
         "sourceFilename": "sidera-logo-document-transparent.png",
         "sha256": "4c63205cf059e98f5f455f99c05f12267bb28320771788539677edd4afedfe22",
         "mimeType": "image/png",
@@ -7756,9 +7756,9 @@
         "ownerType": "owned-ip",
         "ownerId": "sidera",
         "role": "logo",
-        "title": "sidera logo small",
+        "title": "tiansight logo small",
         "access": "public",
-        "sourcePath": "Sidera/assets/brand-images/sidera-logo-small.jpeg",
+        "sourcePath": "Tiansight/assets/brand-images/sidera-logo-small.jpeg",
         "sourceFilename": "sidera-logo-small.jpeg",
         "sha256": "5b6faaba06bdd791c480b94aeb0e0d0face1ae67eca65d12334c036828c72149",
         "mimeType": "image/jpeg",
@@ -7781,9 +7781,9 @@
         "ownerType": "owned-ip",
         "ownerId": "sidera",
         "role": "logo",
-        "title": "sidera logo",
+        "title": "tiansight logo",
         "access": "public",
-        "sourcePath": "Sidera/assets/brand-images/sidera-logo.png",
+        "sourcePath": "Tiansight/assets/brand-images/sidera-logo.png",
         "sourceFilename": "sidera-logo.png",
         "sha256": "220079a535987196ce0567964022154788e52c0bb22ec5c2b05e99a5cfa34658",
         "mimeType": "image/png",
@@ -7854,10 +7854,10 @@
         "images": [
           {
             "assetId": "sidera-hero-sidera-brand-hero-3501c8d23cb5",
-            "path": "Sidera/assets/brand-images/sidera-brand-hero.png",
+            "path": "Tiansight/assets/brand-images/sidera-brand-hero.png",
             "sitePath": "https://media.apuch.art/public/sidera/sidera-hero-sidera-brand-hero-3501c8d23cb5/3501c8d23cb5507005b8d8dea3904e72dbc849783b039a90406b976f7fbf7672/original.png",
             "mediaUrl": "https://media.apuch.art/public/sidera/sidera-hero-sidera-brand-hero-3501c8d23cb5/3501c8d23cb5507005b8d8dea3904e72dbc849783b039a90406b976f7fbf7672/original.png",
-            "title": "sidera brand hero",
+            "title": "tiansight brand hero",
             "format": "PNG",
             "bytes": 2318145,
             "size": "2.21 MB",
@@ -7873,10 +7873,10 @@
           },
           {
             "assetId": "sidera-logo-sidera-logo-document-transparent-4c63205cf059",
-            "path": "Sidera/assets/brand-images/sidera-logo-document-transparent.png",
+            "path": "Tiansight/assets/brand-images/sidera-logo-document-transparent.png",
             "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-document-transparent-4c63205cf059/4c63205cf059e98f5f455f99c05f12267bb28320771788539677edd4afedfe22/original.png",
             "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-document-transparent-4c63205cf059/4c63205cf059e98f5f455f99c05f12267bb28320771788539677edd4afedfe22/original.png",
-            "title": "sidera logo document transparent",
+            "title": "tiansight logo document transparent",
             "format": "PNG",
             "bytes": 50368,
             "size": "49.2 KB",
@@ -7892,10 +7892,10 @@
           },
           {
             "assetId": "sidera-logo-sidera-logo-small-5b6faaba06bd",
-            "path": "Sidera/assets/brand-images/sidera-logo-small.jpeg",
+            "path": "Tiansight/assets/brand-images/sidera-logo-small.jpeg",
             "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-small-5b6faaba06bd/5b6faaba06bdd791c480b94aeb0e0d0face1ae67eca65d12334c036828c72149/original.jpg",
             "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-small-5b6faaba06bd/5b6faaba06bdd791c480b94aeb0e0d0face1ae67eca65d12334c036828c72149/original.jpg",
-            "title": "sidera logo small",
+            "title": "tiansight logo small",
             "format": "JPG",
             "bytes": 15016,
             "size": "14.7 KB",
@@ -7911,10 +7911,10 @@
           },
           {
             "assetId": "sidera-logo-sidera-logo-220079a53598",
-            "path": "Sidera/assets/brand-images/sidera-logo.png",
+            "path": "Tiansight/assets/brand-images/sidera-logo.png",
             "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-220079a53598/220079a535987196ce0567964022154788e52c0bb22ec5c2b05e99a5cfa34658/original.png",
             "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-220079a53598/220079a535987196ce0567964022154788e52c0bb22ec5c2b05e99a5cfa34658/original.png",
-            "title": "sidera logo",
+            "title": "tiansight logo",
             "format": "PNG",
             "bytes": 105714,
             "size": "103.2 KB",
@@ -7988,10 +7988,10 @@
       "images": [
         {
           "assetId": "sidera-hero-sidera-brand-hero-3501c8d23cb5",
-          "path": "Sidera/assets/brand-images/sidera-brand-hero.png",
+          "path": "Tiansight/assets/brand-images/sidera-brand-hero.png",
           "sitePath": "https://media.apuch.art/public/sidera/sidera-hero-sidera-brand-hero-3501c8d23cb5/3501c8d23cb5507005b8d8dea3904e72dbc849783b039a90406b976f7fbf7672/original.png",
           "mediaUrl": "https://media.apuch.art/public/sidera/sidera-hero-sidera-brand-hero-3501c8d23cb5/3501c8d23cb5507005b8d8dea3904e72dbc849783b039a90406b976f7fbf7672/original.png",
-          "title": "sidera brand hero",
+          "title": "tiansight brand hero",
           "format": "PNG",
           "bytes": 2318145,
           "size": "2.21 MB",
@@ -8007,10 +8007,10 @@
         },
         {
           "assetId": "sidera-logo-sidera-logo-document-transparent-4c63205cf059",
-          "path": "Sidera/assets/brand-images/sidera-logo-document-transparent.png",
+          "path": "Tiansight/assets/brand-images/sidera-logo-document-transparent.png",
           "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-document-transparent-4c63205cf059/4c63205cf059e98f5f455f99c05f12267bb28320771788539677edd4afedfe22/original.png",
           "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-document-transparent-4c63205cf059/4c63205cf059e98f5f455f99c05f12267bb28320771788539677edd4afedfe22/original.png",
-          "title": "sidera logo document transparent",
+          "title": "tiansight logo document transparent",
           "format": "PNG",
           "bytes": 50368,
           "size": "49.2 KB",
@@ -8026,10 +8026,10 @@
         },
         {
           "assetId": "sidera-logo-sidera-logo-small-5b6faaba06bd",
-          "path": "Sidera/assets/brand-images/sidera-logo-small.jpeg",
+          "path": "Tiansight/assets/brand-images/sidera-logo-small.jpeg",
           "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-small-5b6faaba06bd/5b6faaba06bdd791c480b94aeb0e0d0face1ae67eca65d12334c036828c72149/original.jpg",
           "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-small-5b6faaba06bd/5b6faaba06bdd791c480b94aeb0e0d0face1ae67eca65d12334c036828c72149/original.jpg",
-          "title": "sidera logo small",
+          "title": "tiansight logo small",
           "format": "JPG",
           "bytes": 15016,
           "size": "14.7 KB",
@@ -8045,10 +8045,10 @@
         },
         {
           "assetId": "sidera-logo-sidera-logo-220079a53598",
-          "path": "Sidera/assets/brand-images/sidera-logo.png",
+          "path": "Tiansight/assets/brand-images/sidera-logo.png",
           "sitePath": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-220079a53598/220079a535987196ce0567964022154788e52c0bb22ec5c2b05e99a5cfa34658/original.png",
           "mediaUrl": "https://media.apuch.art/public/sidera/sidera-logo-sidera-logo-220079a53598/220079a535987196ce0567964022154788e52c0bb22ec5c2b05e99a5cfa34658/original.png",
-          "title": "sidera logo",
+          "title": "tiansight logo",
           "format": "PNG",
           "bytes": 105714,
           "size": "103.2 KB",
@@ -8065,11 +8065,11 @@
       ]
     },
     "editablePaths": [
-      "Sidera/sidera_design.md"
+      "Tiansight/tiansight_design.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Sidera",
-      "folder": "Sidera"
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Tiansight",
+      "folder": "Tiansight"
     },
     "guideCount": 1,
     "tokenCount": 0,
@@ -8244,11 +8244,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/1stepmore.json",
     "publicSlug": "1stepmore",
@@ -8368,7 +8368,7 @@
       "1stepmore/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/1stepmore",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/1stepmore",
       "folder": "1stepmore"
     },
     "guideCount": 1,
@@ -8546,11 +8546,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/agem.json",
     "publicSlug": "agem",
@@ -8670,7 +8670,7 @@
       "AGEM/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/AGEM",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/AGEM",
       "folder": "AGEM"
     },
     "guideCount": 1,
@@ -8846,11 +8846,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/rgd.json",
     "publicSlug": "rgd",
@@ -8970,7 +8970,7 @@
       "RGD/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/RGD",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/RGD",
       "folder": "RGD"
     },
     "guideCount": 1,
@@ -9146,11 +9146,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/changoods.json",
     "publicSlug": "changoods",
@@ -9270,7 +9270,7 @@
       "Changoods/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Changoods",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Changoods",
       "folder": "Changoods"
     },
     "guideCount": 1,
@@ -9446,11 +9446,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/boya.json",
     "publicSlug": "boya",
@@ -9570,7 +9570,7 @@
       "BOYA/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/BOYA",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/BOYA",
       "folder": "BOYA"
     },
     "guideCount": 1,
@@ -9747,11 +9747,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/apuch.json",
     "publicSlug": "apuch",
@@ -9871,7 +9871,7 @@
       "APUCH/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/APUCH",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/APUCH",
       "folder": "APUCH"
     },
     "guideCount": 1,
@@ -10050,11 +10050,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/pam.json",
     "publicSlug": "pam",
@@ -10178,7 +10178,7 @@
       "PAM/pm_design.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/PAM",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/PAM",
       "folder": "PAM"
     },
     "guideCount": 1,
@@ -10355,11 +10355,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/ksamint.json",
     "publicSlug": "ksamint",
@@ -10480,7 +10480,7 @@
       "ksamint/private/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/ksamint",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/ksamint",
       "folder": "ksamint"
     },
     "guideCount": 2,
@@ -10632,11 +10632,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/inucleus.json",
     "publicSlug": "inucleus",
@@ -10756,7 +10756,7 @@
       "iNucleus/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/iNucleus",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/iNucleus",
       "folder": "iNucleus"
     },
     "guideCount": 1,
@@ -10937,11 +10937,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/xinzhi-travel.json",
     "publicSlug": "xinzhi-travel",
@@ -11061,7 +11061,7 @@
       "XinzhiTravel/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/XinzhiTravel",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/XinzhiTravel",
       "folder": "XinzhiTravel"
     },
     "guideCount": 1,
@@ -11242,11 +11242,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/zhongzhiyou.json",
     "publicSlug": "zhongzhiyou",
@@ -11366,7 +11366,7 @@
       "ZhongzhiyouGroup/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/ZhongzhiyouGroup",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/ZhongzhiyouGroup",
       "folder": "ZhongzhiyouGroup"
     },
     "guideCount": 1,
@@ -11542,11 +11542,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/nibiru.json",
     "publicSlug": "nibiru",
@@ -11666,7 +11666,7 @@
       "Nibiru/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Nibiru",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Nibiru",
       "folder": "Nibiru"
     },
     "guideCount": 1,
@@ -11847,11 +11847,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/shenzhen-microsoft-global-center.json",
     "publicSlug": "shenzhen-microsoft-global-center",
@@ -11971,7 +11971,7 @@
       "ShenzhenMicrosoftGlobalCenter/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/ShenzhenMicrosoftGlobalCenter",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/ShenzhenMicrosoftGlobalCenter",
       "folder": "ShenzhenMicrosoftGlobalCenter"
     },
     "guideCount": 1,
@@ -12177,11 +12177,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/shanrenjing.json",
     "publicSlug": "shanrenjing",
@@ -12301,7 +12301,7 @@
       "Shanrenjing/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Shanrenjing",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Shanrenjing",
       "folder": "Shanrenjing"
     },
     "guideCount": 1,
@@ -12490,11 +12490,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/kaoyu-shenhua.json",
     "publicSlug": "kaoyu-shenhua",
@@ -12977,7 +12977,7 @@
       "KaoyuShenhua/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/KaoyuShenhua",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/KaoyuShenhua",
       "folder": "KaoyuShenhua"
     },
     "guideCount": 1,
@@ -13134,11 +13134,11 @@
       "standalone"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/yanan-shiyao-hotel.json",
     "publicSlug": "yanan-shiyao-hotel",
@@ -13258,7 +13258,7 @@
       "YanAnShiyao/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/YanAnShiyao",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/YanAnShiyao",
       "folder": "YanAnShiyao"
     },
     "guideCount": 1,
@@ -13429,11 +13429,11 @@
       "parent"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/tongli-market.json",
     "publicSlug": "tongli-market",
@@ -13551,7 +13551,7 @@
       "TongliMarket/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/TongliMarket",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/TongliMarket",
       "folder": "TongliMarket"
     },
     "guideCount": 1,
@@ -13710,11 +13710,11 @@
       "child"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/tongxianghui.json",
     "publicSlug": "tongxianghui",
@@ -13832,7 +13832,7 @@
       "Tongxianghui/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Tongxianghui",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Tongxianghui",
       "folder": "Tongxianghui"
     },
     "guideCount": 1,
@@ -13991,11 +13991,11 @@
       "child"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/mutangwan.json",
     "publicSlug": "mutangwan",
@@ -14113,7 +14113,7 @@
       "Mutangwan/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Mutangwan",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Mutangwan",
       "folder": "Mutangwan"
     },
     "guideCount": 1,
@@ -14272,11 +14272,11 @@
       "child"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/shuangxi-shaola.json",
     "publicSlug": "shuangxi-shaola",
@@ -14394,7 +14394,7 @@
       "ShuangxiShaola/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/ShuangxiShaola",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/ShuangxiShaola",
       "folder": "ShuangxiShaola"
     },
     "guideCount": 1,
@@ -14545,11 +14545,11 @@
       "child"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/ganglao-baozailu.json",
     "publicSlug": "ganglao-baozailu",
@@ -14667,7 +14667,7 @@
       "GanglaoBaozailu/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/GanglaoBaozailu",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/GanglaoBaozailu",
       "folder": "GanglaoBaozailu"
     },
     "guideCount": 1,
@@ -14826,11 +14826,11 @@
       "child"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/xiaotaoyuan.json",
     "publicSlug": "xiaotaoyuan",
@@ -14948,7 +14948,7 @@
       "Xiaotaoyuan/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Xiaotaoyuan",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Xiaotaoyuan",
       "folder": "Xiaotaoyuan"
     },
     "guideCount": 1,
@@ -15109,11 +15109,11 @@
       "parent"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/subangyuan.json",
     "publicSlug": "subangyuan",
@@ -15231,7 +15231,7 @@
       "Subangyuan/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Subangyuan",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Subangyuan",
       "folder": "Subangyuan"
     },
     "guideCount": 1,
@@ -15390,11 +15390,11 @@
       "parent"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/youyuan-jingmeng.json",
     "publicSlug": "youyuan-jingmeng",
@@ -15512,7 +15512,7 @@
       "YouyuanJingmeng/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/YouyuanJingmeng",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/YouyuanJingmeng",
       "folder": "YouyuanJingmeng"
     },
     "guideCount": 1,
@@ -15673,11 +15673,11 @@
       "parent"
     ],
     "version": {
-      "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-      "shortHash": "f6b8982",
-      "date": "2026-09-13T22:40:14-07:00",
-      "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+      "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+      "shortHash": "1ba46da",
+      "date": "2026-09-13T23:29:41-07:00",
+      "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
     },
     "historyUrl": "api/history/qingshuiting.json",
     "publicSlug": "qingshuiting",
@@ -15795,7 +15795,7 @@
       "Qingshuiting/README.md"
     ],
     "source": {
-      "github": "https://github.com/fengurt/tableai_designaha/tree/main/Qingshuiting",
+      "github": "https://github.com/ksamint/tableai_designaha/tree/main/Qingshuiting",
       "folder": "Qingshuiting"
     },
     "guideCount": 1,

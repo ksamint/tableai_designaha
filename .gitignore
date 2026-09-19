@@ -2,7 +2,7 @@
 node_modules/
 KiND/dist/
 KiND/*.zip
-Sidera/assets/
+Tiansight/assets/
 mcp/dist/
 .wrangler/
 .tmp/

@@ -18,7 +18,7 @@ binary assets as described in `docs/stack-baseline.md`.
 7. Run `npm run check:production` after the workflow succeeds.
 
 `.github/workflows/deploy-pages.yml` publishes the GitHub Pages fallback at
-`https://fengurt.github.io/tableai_designaha/`. It is not the production
+`https://ksamint.github.io/tableai_designaha/`. It is not the production
 origin and must not be treated as the latest operational state.
 
 ## Emergency deployment

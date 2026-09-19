@@ -11,6 +11,7 @@ Open design-system reference for Table AI Alliance brands. One folder per brand;
 | [MANAENDLESS](./MANAENDLESS/) | MANA Endless · 无魔协会 |
 | [OPCGLOBAL](./OPCGLOBAL/) | OPC Global · 欧匹赛全球联盟 |
 | [IPTRUST](./IPTRUST/) | IPTrustasset |
+| [Tiansight](./Tiansight/) | tiansight · 侍天智慧餐饮 |
 | [FENGZHI](./FENGZHI/) | 峰值永造局 · The Transformation Company · 界格 |
 
 ## Agent integration (KiND — reference implementation)
@@ -30,8 +31,10 @@ Replicate this structure per brand as each design system matures. `npm install` 
 KiND ships as a **Cursor plugin** (`.cursor-plugin/plugin.json`) bundling the `kind-design` skill (with a portable bundled token snapshot) and the `kind-design` MCP server.
 
 - **Already in this repo** — open `tableai_designaha` in Cursor and the skill auto-loads from `.cursor/skills/`. Nothing to install.
-- **Quick, paste-a-URL rule** — Cursor → **Settings → Rules → Add Rule → Remote Rule (Github)** → paste `https://github.com/fengurt/tableai_designaha`. This imports `.cursor/rules/kind-design.mdc` (a lightweight brand-guardrails rule) into `.cursor/rules/imported/`. (Remote Rule only pulls `.mdc` rules — the full skill comes via the plugin path below.)
-- **Plugin (recommended for sharing)** — publish at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish), or for a team: **Team Marketplace → Settings → Plugins → Add Marketplace → Import from Repo** → `fengurt/tableai_designaha`. Designers then install it from the Marketplace.
+- **Quick, paste-a-URL rule** — Cursor → **Settings → Rules → Add Rule → Remote Rule (Github)** → paste `https://github.com/ksamint/tableai_designaha`. This imports `.cursor/rules/kind-design.mdc` (a lightweight brand-guardrails rule) into `.cursor/rules/imported/`. (Remote Rule only pulls `.mdc` rules — the full skill comes via the plugin path below.)
+- **Plugin (recommended for sharing)** — publish at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish), or for a team: **Team Marketplace → Settings → Plugins → Add Marketplace → Import from Repo** → `ksamint/tableai_designaha`. Designers then install it from the Marketplace.
 - **Test a plugin locally** — clone into `~/.cursor/plugins/local/kind-design`.
 
 The skill works standalone (it reads its bundled `tokens.json`). The MCP server is optional and needs its deps first: `cd mcp && npm install`. Keep the bundled snapshot current with `npm run sync:skill` after editing canonical tokens.
+
+Tiansight uses `tiansight` publicly. The legacy `sidera` database and asset IDs remain stable for existing API clients and media URLs.

@@ -87,7 +87,7 @@ We equip every valuable mid-to-high-end F&B chain with a "see-clearly, move-beta
 
 - **主标志 — 罗盘印:** compass ring + 侍. Concentric circles + crosshair lines, `--charcoal` on `--ink-primary` or `--paper`.
 - **朱印:** vermillion square seal containing 侍 / 侍天 — covers, back covers, sign-offs only.
-- **Archived logo files:** `Sidera/assets/brand-images/sidera-logo.png` (2000×2000) · `Sidera/assets/brand-images/sidera-logo-small.jpeg` (320×320). Prefer the PNG for print/web; small JPEG for avatars / favicon-adjacent use.
+- **Archived logo files:** `Tiansight/assets/brand-images/sidera-logo.png` (2000×2000) · `Tiansight/assets/brand-images/sidera-logo-small.jpeg` (320×320). Prefer the PNG for print/web; small JPEG for avatars / favicon-adjacent use.
 - **Misuse ✕:** never rotate, never recolor, never stretch.
 - **Clear space:** at least one full compass-ring radius on all sides.
 - **Minimum size:** 24px height for inline; 64px for hero placement.

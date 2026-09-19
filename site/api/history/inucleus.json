@@ -4,7 +4,7 @@
   "mainLanguage": "en",
   "apiUrl": "api/brands/inucleus.json",
   "source": {
-    "github": "https://github.com/fengurt/tableai_designaha/tree/main/iNucleus",
+    "github": "https://github.com/ksamint/tableai_designaha/tree/main/iNucleus",
     "folder": "iNucleus"
   },
   "trackedPaths": [
@@ -17,7 +17,7 @@
     "shortHash": "6c28043",
     "date": "2026-08-14T08:33:39+08:00",
     "message": "feat: streamline brand pages and publish tiansight slug",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
     "sourcePaths": [
       "config/brands.json",
       "iNucleus",
@@ -30,7 +30,7 @@
       "shortHash": "6c28043",
       "date": "2026-08-14T08:33:39+08:00",
       "message": "feat: streamline brand pages and publish tiansight slug",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -42,7 +42,7 @@
       "shortHash": "bcd28bc",
       "date": "2026-08-04T06:00:43+08:00",
       "message": "Rename 侍天 English brand name to tiansight",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/bcd28bc5dcefd3d090488e9f90ce43ec673b2ec6",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/bcd28bc5dcefd3d090488e9f90ce43ec673b2ec6",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -54,7 +54,7 @@
       "shortHash": "fa30da1",
       "date": "2026-07-23T09:50:41+08:00",
       "message": "feat: move Sidera to pale manuscript theme",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/fa30da14e08bc70e600864c069a2cc55cf38631f",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/fa30da14e08bc70e600864c069a2cc55cf38631f",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -66,7 +66,7 @@
       "shortHash": "6f63b20",
       "date": "2026-07-21T14:05:18+08:00",
       "message": "feat: refine Sidera ink identity",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -78,7 +78,7 @@
       "shortHash": "5f6dced",
       "date": "2026-07-20T13:58:19+08:00",
       "message": "feat: add food brand architecture and edge performance",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -90,7 +90,7 @@
       "shortHash": "bc7b985",
       "date": "2026-07-20T08:12:03+08:00",
       "message": "feat: add IP taxonomy and brand architecture",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -102,7 +102,7 @@
       "shortHash": "eaf4320",
       "date": "2026-07-19T14:13:21+08:00",
       "message": "Add public IP library, remote MCP, and Adobe asset pipeline",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/eaf43202c781d92d9f70111ca8c13c14f5af8e86",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/eaf43202c781d92d9f70111ca8c13c14f5af8e86",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -114,7 +114,7 @@
       "shortHash": "b0056d3",
       "date": "2026-07-12T21:39:51+08:00",
       "message": "Rename Shanrenjing English brand to shanpass",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/b0056d358b18aca3cf5259d4813e3f1641121a12",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/b0056d358b18aca3cf5259d4813e3f1641121a12",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -126,7 +126,7 @@
       "shortHash": "a5bf7cf",
       "date": "2026-07-10T20:21:24+08:00",
       "message": "Replace contrast-template brand copy",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/a5bf7cfbce47907a1d9b38b490a0eb8c434735e9",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/a5bf7cfbce47907a1d9b38b490a0eb8c434735e9",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -138,7 +138,7 @@
       "shortHash": "ed33a8b",
       "date": "2026-07-10T18:44:20+08:00",
       "message": "Add Shanrenjing journey safety IP",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/ed33a8b7b6283c8917f1809089fb0acdedca5f1c",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/ed33a8b7b6283c8917f1809089fb0acdedca5f1c",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -150,7 +150,7 @@
       "shortHash": "cd0ea58",
       "date": "2026-07-08T04:12:48+08:00",
       "message": "Refine hero index labels",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/cd0ea58d4be4c6567f5daa7abeda33ba56c9c2eb",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/cd0ea58d4be4c6567f5daa7abeda33ba56c9c2eb",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -162,7 +162,7 @@
       "shortHash": "9e33619",
       "date": "2026-07-08T03:55:08+08:00",
       "message": "Add Nibiru and Shenzhen Microsoft Global Center IPs",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/9e33619ad95856c977f8803517f325304d678821",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/9e33619ad95856c977f8803517f325304d678821",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -174,7 +174,7 @@
       "shortHash": "4c1ae93",
       "date": "2026-07-08T03:28:03+08:00",
       "message": "Update OPC Global primary language",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/4c1ae93145b837340d2ad6b92c80cf9935868ecb",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/4c1ae93145b837340d2ad6b92c80cf9935868ecb",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -186,7 +186,7 @@
       "shortHash": "4efc463",
       "date": "2026-07-08T03:23:22+08:00",
       "message": "Add Zhongzhiyou Group IP",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/4efc463d2f51813f4aae7c47083471b15ca8d1bf",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/4efc463d2f51813f4aae7c47083471b15ca8d1bf",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -198,7 +198,7 @@
       "shortHash": "5a93d2b",
       "date": "2026-07-08T03:19:10+08:00",
       "message": "Add Xinzhi Travel IP",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/5a93d2bd25b67c481c44af593249aa2bf2ef8d14",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/5a93d2bd25b67c481c44af593249aa2bf2ef8d14",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -210,7 +210,7 @@
       "shortHash": "3e24857",
       "date": "2026-07-06T12:50:10+08:00",
       "message": "Add IP classifications and iNucleus",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/3e24857f33d1f7b4c09df235064b2e6597a2732a",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/3e24857f33d1f7b4c09df235064b2e6597a2732a",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -222,7 +222,7 @@
       "shortHash": "b0269d2",
       "date": "2026-07-06T06:21:22+08:00",
       "message": "Add ksamint IP",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/b0269d253a8cf1b693e2cbb6513aeefadb543b34",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/b0269d253a8cf1b693e2cbb6513aeefadb543b34",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -234,7 +234,7 @@
       "shortHash": "067a47c",
       "date": "2026-07-05T10:24:24+08:00",
       "message": "Add Sanctem IP and brand logos",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/067a47c76f1cb812b607335089911c282f4d8f78",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/067a47c76f1cb812b607335089911c282f4d8f78",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -246,7 +246,7 @@
       "shortHash": "a0e6ecd",
       "date": "2026-07-04T22:02:17+08:00",
       "message": "Add Sidera reference notes",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/a0e6ecdeb7c9f436d1fc0081c43299056e0601ce",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/a0e6ecdeb7c9f436d1fc0081c43299056e0601ce",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",
@@ -258,7 +258,7 @@
       "shortHash": "0e3d71b",
       "date": "2026-07-04T21:38:07+08:00",
       "message": "Add PaM Design Office IP",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/0e3d71ba924b859205ea91bc3c5cf3e60e7f61b8",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/0e3d71ba924b859205ea91bc3c5cf3e60e7f61b8",
       "sourcePaths": [
         "config/brands.json",
         "iNucleus",

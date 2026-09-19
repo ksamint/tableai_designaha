@@ -51,7 +51,7 @@ function githubConfig(env) {
   const token = env.GITHUB_ADMIN_TOKEN || env.GITHUB_TOKEN || env.GH_TOKEN;
   return {
     token,
-    owner: env.GITHUB_OWNER || "fengurt",
+    owner: env.GITHUB_OWNER || "ksamint",
     repo: env.GITHUB_REPO || "tableai_designaha",
     branch: env.GITHUB_BRANCH || "main",
   };

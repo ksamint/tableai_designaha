@@ -762,7 +762,7 @@
   {
     "slug": "sidera",
     "publicSlug": "tiansight",
-    "folder": "Sidera",
+    "folder": "Tiansight",
     "name": "侍天 - 智慧餐饮",
     "nativeName": "tiansight",
     "description": "侍天是面向智慧餐饮、饮食知识与餐饮品牌内容系统的中文优先 IP。",
@@ -780,7 +780,7 @@
       "zh": "参考链接：https://frienji.kenjilopezalt.com/；https://www.seriouseats.com/",
       "en": "Reference links: https://frienji.kenjilopezalt.com/; https://www.seriouseats.com/"
     },
-    "primaryGuide": "Sidera/sidera_design.md",
+    "primaryGuide": "Tiansight/tiansight_design.md",
     "theme": {
       "mode": "light",
       "primary": "#EFE6D2",

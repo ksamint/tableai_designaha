@@ -44,6 +44,13 @@ if (!aboutPage.includes('<base href="../">')) throw new Error("about_base_missin
 if (!aboutPage.includes('rel="canonical" href="https://apuch.art/about/"')) throw new Error("about_canonical");
 if (!aboutPage.includes('href="mcp"') || !aboutPage.includes('href="agent.json"')) throw new Error("about_agent_docs_missing");
 
+const tiansight = JSON.parse(await readFile(join(root, "site/api/brands/tiansight.json"), "utf8"));
+const legacyTiansight = JSON.parse(await readFile(join(root, "site/api/brands/sidera.json"), "utf8"));
+if (JSON.stringify(tiansight) !== JSON.stringify(legacyTiansight)) throw new Error("tiansight_legacy_api_mismatch");
+if (tiansight.primaryGuide !== "Tiansight/tiansight_design.md" || !tiansight.guides.some((guide) => guide.primary && guide.path === tiansight.primaryGuide)) throw new Error("tiansight_guide_missing");
+if (tiansight.source.github !== "https://github.com/ksamint/tableai_designaha/tree/main/Tiansight") throw new Error("tiansight_repository_link");
+if (!tiansight.images.length || tiansight.images.some((image) => !image.path.startsWith("Tiansight/") || !image.mediaUrl.startsWith("https://media.apuch.art/public/sidera/"))) throw new Error("tiansight_asset_compatibility");
+
 const siteScript = await readFile(join(root, "site", "assets", "site.js"), "utf8");
 if (!siteScript.includes("function minimalReferenceText") || !siteScript.includes("data-copy-minimal")) throw new Error("minimal_copy_missing");
 if (!siteScript.includes("brand.source?.github") || !siteScript.includes(">GitHub ↗</a>")) throw new Error("brand_github_link_missing");

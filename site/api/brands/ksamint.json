@@ -165,11 +165,11 @@
     "standalone"
   ],
   "version": {
-    "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-    "shortHash": "f6b8982",
-    "date": "2026-09-13T22:40:14-07:00",
-    "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+    "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+    "shortHash": "1ba46da",
+    "date": "2026-09-13T23:29:41-07:00",
+    "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
   },
   "historyUrl": "api/history/ksamint.json",
   "history": [
@@ -178,7 +178,7 @@
       "shortHash": "6c28043",
       "date": "2026-08-14T08:33:39+08:00",
       "message": "feat: streamline brand pages and publish tiansight slug",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/6c28043d87c25fa124e6997cafb2c5e6492ffc0e",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -190,7 +190,7 @@
       "shortHash": "bcd28bc",
       "date": "2026-08-04T06:00:43+08:00",
       "message": "Rename 侍天 English brand name to tiansight",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/bcd28bc5dcefd3d090488e9f90ce43ec673b2ec6",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/bcd28bc5dcefd3d090488e9f90ce43ec673b2ec6",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -202,7 +202,7 @@
       "shortHash": "fa30da1",
       "date": "2026-07-23T09:50:41+08:00",
       "message": "feat: move Sidera to pale manuscript theme",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/fa30da14e08bc70e600864c069a2cc55cf38631f",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/fa30da14e08bc70e600864c069a2cc55cf38631f",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -214,7 +214,7 @@
       "shortHash": "6f63b20",
       "date": "2026-07-21T14:05:18+08:00",
       "message": "feat: refine Sidera ink identity",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -226,7 +226,7 @@
       "shortHash": "5f6dced",
       "date": "2026-07-20T13:58:19+08:00",
       "message": "feat: add food brand architecture and edge performance",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -238,7 +238,7 @@
       "shortHash": "bc7b985",
       "date": "2026-07-20T08:12:03+08:00",
       "message": "feat: add IP taxonomy and brand architecture",
-      "url": "https://github.com/fengurt/tableai_designaha/commit/bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/bc7b985d4a6a1afb395c8b77ff6c2105e757780b",
       "sourcePaths": [
         "config/brands.json",
         "ksamint",
@@ -387,7 +387,7 @@
     "ksamint/private/README.md"
   ],
   "source": {
-    "github": "https://github.com/fengurt/tableai_designaha/tree/main/ksamint",
+    "github": "https://github.com/ksamint/tableai_designaha/tree/main/ksamint",
     "folder": "ksamint"
   }
 }

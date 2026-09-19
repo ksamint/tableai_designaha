@@ -1,73 +1,87 @@
 [
   {
+    "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+    "shortHash": "1ba46da",
+    "date": "2026-09-13T23:29:41-07:00",
+    "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
+  },
+  {
+    "hash": "2e69252b1a7a5ffea591c1fc53261e1d08af1aa8",
+    "shortHash": "2e69252",
+    "date": "2026-09-14T14:28:48+08:00",
+    "message": "feat: add GitHub links to homepage brands",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/2e69252b1a7a5ffea591c1fc53261e1d08af1aa8"
+  },
+  {
     "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
     "shortHash": "f6b8982",
     "date": "2026-09-13T22:40:14-07:00",
     "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
   },
   {
     "hash": "04cf5f8e0f7e9e196089266276f7d976e5a2dc65",
     "shortHash": "04cf5f8",
     "date": "2026-09-14T13:38:58+08:00",
     "message": "feat: link brand pages to GitHub sources",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/04cf5f8e0f7e9e196089266276f7d976e5a2dc65"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/04cf5f8e0f7e9e196089266276f7d976e5a2dc65"
   },
   {
     "hash": "74a829b2df1b50b1411b06dcf66a13ee6648c008",
     "shortHash": "74a829b",
     "date": "2026-09-01T17:03:57+08:00",
     "message": "feat: add interactive IP evolution map",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/74a829b2df1b50b1411b06dcf66a13ee6648c008"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/74a829b2df1b50b1411b06dcf66a13ee6648c008"
   },
   {
     "hash": "6d0b90a132ae2fe9197dd7bf0712e96880984f8e",
     "shortHash": "6d0b90a",
     "date": "2026-09-01T11:20:03+08:00",
     "message": "fix: contain IP asset previews",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/6d0b90a132ae2fe9197dd7bf0712e96880984f8e"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/6d0b90a132ae2fe9197dd7bf0712e96880984f8e"
   },
   {
     "hash": "59c4eb6b0ae3294734806a7fbe6664d873740622",
     "shortHash": "59c4eb6",
     "date": "2026-09-01T09:03:36+08:00",
     "message": "feat: unify IP asset pages and downloads",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/59c4eb6b0ae3294734806a7fbe6664d873740622"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/59c4eb6b0ae3294734806a7fbe6664d873740622"
   },
   {
     "hash": "cad36c5ded24066497b8169cad9783db90ebfb9f",
     "shortHash": "cad36c5",
     "date": "2026-08-31T18:44:14+08:00",
     "message": "fix: unify navigation and brand hero",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/cad36c5ded24066497b8169cad9783db90ebfb9f"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/cad36c5ded24066497b8169cad9783db90ebfb9f"
   },
   {
     "hash": "347cfbb2eb50ed335e9242a14c40a827fa8e1af4",
     "shortHash": "347cfbb",
     "date": "2026-08-20T12:49:38+08:00",
     "message": "feat: add minimal IP copy",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/347cfbb2eb50ed335e9242a14c40a827fa8e1af4"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/347cfbb2eb50ed335e9242a14c40a827fa8e1af4"
   },
   {
     "hash": "dd042f5968222ea27fb7ec3ff4e75f63ce57d3bc",
     "shortHash": "dd042f5",
     "date": "2026-08-20T08:06:20+08:00",
     "message": "feat: prioritize transparent document logos",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/dd042f5968222ea27fb7ec3ff4e75f63ce57d3bc"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/dd042f5968222ea27fb7ec3ff4e75f63ce57d3bc"
   },
   {
     "hash": "97409964b2887b3882c3d0e2637e16b082de0505",
     "shortHash": "9740996",
     "date": "2026-08-16T09:01:13+08:00",
     "message": "fix: use absolute app assets",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/97409964b2887b3882c3d0e2637e16b082de0505"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/97409964b2887b3882c3d0e2637e16b082de0505"
   },
   {
     "hash": "023912fb3434a3e51c398957794d4d0eab3cdeb8",
     "shortHash": "023912f",
     "date": "2026-08-16T08:56:23+08:00",
     "message": "fix: resolve about page assets",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/023912fb3434a3e51c398957794d4d0eab3cdeb8"
+    "url": "https://github.com/ksamint/tableai_designaha/commit/023912fb3434a3e51c398957794d4d0eab3cdeb8"
   },
   {
     "hash": "70e35b66e27f2c9897644a5762207931d6ad6288",
@@ -124,19 +138,5 @@
     "date": "2026-08-14T11:14:27+08:00",
     "message": "fix: contain mobile font specimens",
     "url": "https://github.com/fengurt/tableai_designaha/commit/e83fd292706dc1739a84dc2cc7ad19f8027b870b"
-  },
-  {
-    "hash": "d24476209a895cdf30af4fe962050d437b8fc071",
-    "shortHash": "d244762",
-    "date": "2026-08-14T11:01:04+08:00",
-    "message": "fix: make font subsets reproducible",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/d24476209a895cdf30af4fe962050d437b8fc071"
-  },
-  {
-    "hash": "c6fb4325d24c2f589aa34a3f86abb4d648dbd010",
-    "shortHash": "c6fb432",
-    "date": "2026-08-14T10:50:21+08:00",
-    "message": "feat: expand popular font specimens",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/c6fb4325d24c2f589aa34a3f86abb4d648dbd010"
   }
 ]

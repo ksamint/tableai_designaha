@@ -82,12 +82,12 @@
       }
     }
   },
-  "generatedAt": "2026-09-14T06:27:55.892Z",
+  "generatedAt": "2026-09-19T12:28:06.186Z",
   "version": {
-    "hash": "f6b8982bb90efdd941e80e154f421c0ffd0133f3",
-    "shortHash": "f6b8982",
-    "date": "2026-09-13T22:40:14-07:00",
-    "message": "Merge pull request #4 from fengurt/codex/brand-github-links",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/f6b8982bb90efdd941e80e154f421c0ffd0133f3"
+    "hash": "1ba46da8676a685e42529d564f3d9c6349488bb9",
+    "shortHash": "1ba46da",
+    "date": "2026-09-13T23:29:41-07:00",
+    "message": "Merge pull request #5 from fengurt/codex/home-brand-github-icons",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/1ba46da8676a685e42529d564f3d9c6349488bb9"
   }
 }

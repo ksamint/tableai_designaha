@@ -22,7 +22,7 @@ function authorized(request, env) {
 function githubConfig(env) {
   return {
     token: env.GITHUB_ADMIN_TOKEN || env.GITHUB_TOKEN || env.GH_TOKEN || "",
-    owner: env.GITHUB_OWNER || "fengurt",
+    owner: env.GITHUB_OWNER || "ksamint",
     repo: env.GITHUB_REPO || "tableai_designaha",
     branch: env.GITHUB_BRANCH || "main",
   };
