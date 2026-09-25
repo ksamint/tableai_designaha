@@ -12,17 +12,28 @@
     "IPTRUST"
   ],
   "latest": {
-    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
-    "shortHash": "17e8486",
-    "date": "2026-09-19T20:28:40+08:00",
-    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b",
+    "hash": "498680a80ec9173520489eca77f1247601798168",
+    "shortHash": "498680a",
+    "date": "2026-09-19T22:53:07+08:00",
+    "message": "Link every owned IP to its dedicated ksamint design-system repository",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168",
     "sourcePaths": [
       "config/brands.json",
       "IPTRUST"
     ]
   },
   "versions": [
+    {
+      "hash": "498680a80ec9173520489eca77f1247601798168",
+      "shortHash": "498680a",
+      "date": "2026-09-19T22:53:07+08:00",
+      "message": "Link every owned IP to its dedicated ksamint design-system repository",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168",
+      "sourcePaths": [
+        "config/brands.json",
+        "IPTRUST"
+      ]
+    },
     {
       "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
       "shortHash": "17e8486",
@@ -227,17 +238,6 @@
       "date": "2026-07-06T12:50:10+08:00",
       "message": "Add IP classifications and iNucleus",
       "url": "https://github.com/ksamint/tableai_designaha/commit/3e24857f33d1f7b4c09df235064b2e6597a2732a",
-      "sourcePaths": [
-        "config/brands.json",
-        "IPTRUST"
-      ]
-    },
-    {
-      "hash": "b0269d253a8cf1b693e2cbb6513aeefadb543b34",
-      "shortHash": "b0269d2",
-      "date": "2026-07-06T06:21:22+08:00",
-      "message": "Add ksamint IP",
-      "url": "https://github.com/ksamint/tableai_designaha/commit/b0269d253a8cf1b693e2cbb6513aeefadb543b34",
       "sourcePaths": [
         "config/brands.json",
         "IPTRUST"

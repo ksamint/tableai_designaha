@@ -150,14 +150,26 @@
     "parent"
   ],
   "version": {
-    "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
-    "shortHash": "17e8486",
-    "date": "2026-09-19T20:28:40+08:00",
-    "message": "Update ksamint repository references and rename Sidera sources to Tiansight",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/17e8486df5cc2896049164fdef9c876e5790897b"
+    "hash": "498680a80ec9173520489eca77f1247601798168",
+    "shortHash": "498680a",
+    "date": "2026-09-19T22:53:07+08:00",
+    "message": "Link every owned IP to its dedicated ksamint design-system repository",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168"
   },
   "historyUrl": "api/history/subangyuan.json",
   "history": [
+    {
+      "hash": "498680a80ec9173520489eca77f1247601798168",
+      "shortHash": "498680a",
+      "date": "2026-09-19T22:53:07+08:00",
+      "message": "Link every owned IP to its dedicated ksamint design-system repository",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168",
+      "sourcePaths": [
+        "config/brands.json",
+        "Subangyuan",
+        "Subangyuan/README.md"
+      ]
+    },
     {
       "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
       "shortHash": "17e8486",
@@ -212,18 +224,6 @@
       "date": "2026-07-21T14:05:18+08:00",
       "message": "feat: refine Sidera ink identity",
       "url": "https://github.com/ksamint/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
-      "sourcePaths": [
-        "config/brands.json",
-        "Subangyuan",
-        "Subangyuan/README.md"
-      ]
-    },
-    {
-      "hash": "5f6dced3cbe228a68c1519b403401944a42d0c5d",
-      "shortHash": "5f6dced",
-      "date": "2026-07-20T13:58:19+08:00",
-      "message": "feat: add food brand architecture and edge performance",
-      "url": "https://github.com/ksamint/tableai_designaha/commit/5f6dced3cbe228a68c1519b403401944a42d0c5d",
       "sourcePaths": [
         "config/brands.json",
         "Subangyuan",

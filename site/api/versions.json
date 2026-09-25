@@ -1,5 +1,12 @@
 [
   {
+    "hash": "498680a80ec9173520489eca77f1247601798168",
+    "shortHash": "498680a",
+    "date": "2026-09-19T22:53:07+08:00",
+    "message": "Link every owned IP to its dedicated ksamint design-system repository",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168"
+  },
+  {
     "hash": "17e8486df5cc2896049164fdef9c876e5790897b",
     "shortHash": "17e8486",
     "date": "2026-09-19T20:28:40+08:00",
@@ -131,12 +138,5 @@
     "date": "2026-08-15T16:57:04+08:00",
     "message": "feat: archive font license provenance",
     "url": "https://github.com/fengurt/tableai_designaha/commit/5923402edf134c7ee5c4ac5db5003e829dd4f5bb"
-  },
-  {
-    "hash": "721d34a6e85da0b6334a8429a990804fa34f8024",
-    "shortHash": "721d34a",
-    "date": "2026-08-14T11:25:49+08:00",
-    "message": "chore: enforce commercial font provenance",
-    "url": "https://github.com/fengurt/tableai_designaha/commit/721d34a6e85da0b6334a8429a990804fa34f8024"
   }
 ]

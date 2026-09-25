@@ -530,6 +530,60 @@ button:active { transform: translateY(1px); }
 .copy-reference { top: 12px; right: 12px; }
 
 .brand-page { width: min(1380px, calc(100vw - 40px)); }
+.brand-shell.brand-detail { --detail-radius: 12px; box-sizing: border-box; padding: 24px clamp(16px, 3vw, 42px) 72px; }
+.brand-breadcrumb { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; color: var(--brand-muted); font-size: 13px; }
+.brand-breadcrumb a { color: var(--brand-ink); text-decoration: none; padding: 12px 0; }
+.brand-detail .brand-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(28px, 5vw, 72px); padding: 32px 0 44px; margin: 0; border: 0; }
+.brand-detail .brand-hero h1 { max-width: 14ch; margin: 12px 0 18px; font-size: clamp(38px, 4.5vw, 68px); line-height: 1.12; letter-spacing: -.035em; }
+.brand-detail .brand-hero > div:first-child > p { line-height: 1.7; }
+.brand-detail .brand-hero .eyebrow { color: var(--brand-muted); }
+.brand-detail .actions { gap: 10px; margin-top: 26px; }
+.brand-detail .button { min-height: 46px; padding: 12px 16px; border-radius: 6px; font-size: 14px; line-height: 1.4; text-align: center; }
+.brand-detail .button.ghost { color: var(--brand-ink); border-color: var(--brand-line); }
+.brand-detail .brand-github { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--brand-ink); border-color: var(--brand-ink); color: var(--brand-surface); }
+.brand-github svg { width: 18px; height: 18px; flex-shrink: 0; fill: currentColor; }
+.brand-palette { margin-top: 28px; }
+.brand-palette .swatches { gap: 12px 16px; }
+.swatch-pair { display: inline-flex; align-items: center; gap: 8px; }
+.brand-detail .brand-breadcrumb, .brand-detail .brand-sections { justify-content: flex-start; }
+.brand-detail .brand-visual { border-radius: var(--detail-radius); min-height: 300px; }
+.brand-detail .brand-visual img { max-height: 390px; }
+.brand-sections { display: flex; flex-wrap: wrap; gap: 8px 28px; padding: 14px 0; border-top: 1px solid var(--brand-line); border-bottom: 1px solid var(--brand-line); }
+.brand-sections a { display: inline-flex; align-items: center; gap: 10px; padding: 10px 0; color: var(--brand-ink); font-size: 14px; text-decoration: none; }
+.brand-sections span { color: var(--brand-muted); font-size: 12px; }
+.brand-detail .brand-section { padding: 44px 0; scroll-margin-top: 96px; border-bottom: 1px solid var(--brand-line); }
+.brand-section > h2 { margin: 0 0 10px; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; }
+.brand-section > p { margin: 0 0 26px; line-height: 1.6; }
+.brand-detail .brand-assets > .eyebrow { display: none; }
+.brand-detail .brand-assets { margin: 0; }
+.brand-detail .brand-asset-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; overflow: visible; }
+.brand-detail .brand-asset { min-width: 0; border: 1px solid var(--brand-line); border-radius: var(--detail-radius); overflow: hidden; }
+.brand-detail .brand-asset-link { min-height: 180px; height: 220px; }
+.brand-detail .brand-asset-info { padding: 16px; }
+.brand-detail .brand-asset-name { overflow-wrap: anywhere; }
+.brand-guide, .brand-more-assets { border-top: 1px solid var(--brand-line); }
+.brand-guide > summary, .brand-more-assets > summary { padding: 22px 4px; cursor: pointer; color: var(--brand-ink); font-weight: 650; line-height: 1.5; }
+.brand-guide[open] > summary { border-bottom: 1px solid var(--brand-line); }
+.brand-guide .rendered-document { max-width: 80ch; padding: 24px 0; margin: 0 auto; overflow-wrap: anywhere; }
+.brand-guide .rendered-document h1 { font-size: clamp(26px, 3vw, 38px); line-height: 1.25; }
+.brand-guide .rendered-document h2 { font-size: clamp(22px, 2.5vw, 30px); line-height: 1.3; }
+.brand-detail .brand-advanced { margin-top: 0; scroll-margin-top: 96px; border-top: 0; }
+.brand-detail .brand-advanced > summary { padding: 28px 0; font-size: 22px; }
+.brand-detail :is(a, button, summary):focus-visible { outline: 2px solid var(--brand-ink); outline-offset: 5px; }
+.brand-detail :is(.brand-breadcrumb a, .brand-sections a):hover { text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 900px) {
+  .brand-detail .brand-hero { grid-template-columns: 1fr; gap: 28px; }
+  .brand-detail .brand-hero h1 { max-width: 18ch; }
+  .brand-detail .brand-asset-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+}
+@media (max-width: 480px) {
+  .brand-detail .brand-hero h1 { font-size: 38px; }
+  .brand-detail .actions { display: grid; grid-template-columns: 1fr; }
+  .brand-detail .brand-asset-strip { grid-template-columns: 1fr; }
+  .brand-detail .brand-section { padding: 32px 0; }
+  .brand-detail :is(.brand-section, .brand-advanced) { scroll-margin-top: 132px; }
+  .brand-sections { column-gap: 18px; }
+}
 .brand-shell {
   width: 100%;
   margin: -24px 0 -70px;
