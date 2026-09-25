@@ -5257,8 +5257,10 @@ function swatches(theme = {}, labeled = false) {
     ["Ink", theme.ink],
   ].filter(([, value]) => value);
   return \`<div class="swatches">\${colors.map(([label, value]) => \`
+    <span class="swatch-pair">
     <span class="swatch" title="\${escapeHtml(label)} \${escapeHtml(value)}" style="background:\${escapeHtml(value)}"></span>
     \${labeled ? \`<span class="swatch-label">\${escapeHtml(label)} \${escapeHtml(value)}</span>\` : ""}
+    </span>
   \`).join("")}</div>\`;
 }
 
@@ -6604,21 +6606,25 @@ function compactBrandFacts(brand = {}, display = {}, localized = {}) {
 
 function brandAdvancedDetails(brand = {}, display = {}, localized = {}) {
   const guideHtml = brand.guides?.map((guide) => \`
-    <article class="guide guide-rendered">
-      <p class="eyebrow">\${escapeHtml(t("brand.guideline"))}</p>
+    <details class="brand-guide">
+      <summary>\${escapeHtml(guide.title || t("brand.guideline"))}</summary>
       <div class="rendered-document brand-guide-document">\${guide.html || ("<p>" + escapeHtml(guide.excerpt || "") + "</p>")}</div>
-    </article>
+    </details>
   \`).join("") || "";
   return \`
-    <details class="brand-advanced">
-      <summary><span>\${escapeHtml(t("brand.more"))}</span></summary>
+    <section id="brand-guidelines" class="brand-section" aria-labelledby="guidelines-title">
+      <h2 id="guidelines-title">\${currentLocale === "en" ? "Design guidelines" : "设计规范"}</h2>
+      <p class="muted">\${currentLocale === "en" ? "Explore the published guides before creating with this brand." : "从已发布的品牌规范开始，保持每一次创作的一致性。"}</p>
+      \${guideHtml || \`<p class="muted">\${currentLocale === "en" ? "No guide is published here yet. Use the GitHub link above to explore this IP’s design system." : "本站暂未收录规范，可通过页首 GitHub 入口查看该 IP 的设计系统。"}</p>\`}
+    </section>
+    <details class="brand-advanced" id="brand-information">
+      <summary><span>\${currentLocale === "en" ? "Brand information & tools" : "品牌资料与工具"}</span></summary>
       <div class="brand-advanced-body">
         \${compactBrandFacts(brand, display, localized)}
         \${profileEditor(brand)}
         <section class="brand-architecture" id="brandArchitecture" aria-live="polite"></section>
         \${ipSystemPanel(brand)}
         \${brandAssetHub(brand)}
-        \${guideHtml}
       </div>
     </details>
   \`;
@@ -6781,19 +6787,20 @@ async function renderBrand() {
     ? brand.adobeAssets[0].hero
     : preferredBrandImage(brand.images || []);
   page.innerHTML = \`
-    <div class="brand-shell \${themeClass(brand.theme)}" style="\${themeStyle(brand.theme)}">
+    <div class="brand-shell brand-detail \${themeClass(brand.theme)}" style="\${themeStyle(brand.theme)}">
+      <nav class="brand-breadcrumb" aria-label="\${currentLocale === "en" ? "Breadcrumb" : "当前位置"}"><a href="directory">← \${currentLocale === "en" ? "All IPs" : "全部 IP"}</a><span>/</span><span>\${escapeHtml(display.name)}</span></nav>
       <section class="brand-hero">
         <div>
           <p class="eyebrow">\${escapeHtml(statusLabel(brand.status))}</p>
           <h1>\${escapeHtml(display.name)}</h1>
           <p class="muted alt-name">\${escapeHtml(display.secondaryName || "")}</p>
           <p>\${escapeHtml(localized.intro)}</p>
-          \${swatches(brand.theme, true)}
           <div class="actions">
-            <button class="button" type="button" data-copy-brand="\${escapeHtml(brand.slug)}" data-copy-minimal>\${escapeHtml(t("brand.copyMinimal"))}</button>
+            \${brand.designSystemUrl || brand.source?.github ? \`<a class="button brand-github" href="\${escapeHtml(brand.designSystemUrl || brand.source.github)}" target="_blank" rel="noopener noreferrer">\${githubIcon()} GitHub · \${currentLocale === "en" ? "Design system" : "设计系统"} ↗</a>\` : ""}
+            <button class="button ghost" type="button" data-copy-brand="\${escapeHtml(brand.slug)}" data-copy-minimal>\${escapeHtml(t("brand.copyMinimal"))}</button>
             \${brand.officialWebsite ? \`<a class="button ghost" href="\${escapeHtml(brand.officialWebsite)}">\${escapeHtml(t("brand.website"))}</a>\` : ""}
-            \${brand.designSystemUrl || brand.source?.github ? \`<a class="button ghost" href="\${escapeHtml(brand.designSystemUrl || brand.source.github)}" target="_blank" rel="noreferrer">\${currentLocale === "en" ? "Design system" : "设计系统"} ↗</a>\` : ""}
           </div>
+          <div class="brand-palette">\${swatches(brand.theme, true)}</div>
         </div>
         \${hero ? \`
           <div class="brand-visual">
@@ -6809,14 +6816,27 @@ async function renderBrand() {
           </div>
         \` : ""}
       </section>
-      \${brandAssetStrip(brand.images || [])}
-      \${adobeAssetPanel(brand.adobeAssets || [])}
+      <nav class="brand-sections" aria-label="\${currentLocale === "en" ? "On this page" : "本页导航"}">
+        <a href="#brand-assets">\${currentLocale === "en" ? "Visual assets" : "视觉素材"}<span>\${(brand.images || []).length}</span></a>
+        <a href="#brand-guidelines">\${currentLocale === "en" ? "Guidelines" : "设计规范"}<span>\${(brand.guides || []).length}</span></a>
+        <a href="#brand-information">\${currentLocale === "en" ? "Information & tools" : "资料与工具"}</a>
+      </nav>
+      <section id="brand-assets" class="brand-section" aria-labelledby="assets-title">
+        <h2 id="assets-title">\${currentLocale === "en" ? "Visual assets" : "视觉素材"}</h2>
+        <p class="muted">\${currentLocale === "en" ? "Preview, copy or download the original brand assets." : "预览、复制或下载品牌原始素材。"}</p>
+        \${brandAssetStrip((brand.images || []).slice(0, 6)) || \`<p class="muted">\${escapeHtml(t("brand.blank"))}</p>\`}
+        \${brand.images?.length > 6 ? \`<details class="brand-more-assets"><summary>\${currentLocale === "en" ? "More assets" : "更多素材"} · \${brand.images.length - 6}</summary>\${brandAssetStrip(brand.images.slice(6))}</details>\` : ""}
+        \${adobeAssetPanel(brand.adobeAssets || [])}
+      </section>
       \${brandAdvancedDetails(brand, display, localized)}
     </div>
   \`;
   page.setAttribute("aria-busy", "false");
   setupCopyButtons([brand]);
   setupAssetCopyButtons();
+  page.querySelector('a[href="#brand-information"]')?.addEventListener("click", () => {
+    page.querySelector("#brand-information").open = true;
+  });
   const advanced = page.querySelector(".brand-advanced");
   advanced?.addEventListener("toggle", () => {
     if (!advanced.open || advanced.dataset.ready) return;

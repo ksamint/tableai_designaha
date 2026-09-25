@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import assert from "node:assert/strict";
+import vm from "node:vm";
 import { canonicalSiteRedirect } from "../edge/src/index.js";
 import { mediaDownloadName } from "../edge/src/media.js";
 
@@ -65,6 +67,33 @@ if (tiansight.source.github !== "https://github.com/ksamint/tableai_designaha/tr
 if (!tiansight.images.length || tiansight.images.some((image) => !image.path.startsWith("Tiansight/") || !image.mediaUrl.startsWith("https://media.apuch.art/public/sidera/"))) throw new Error("tiansight_asset_compatibility");
 
 const siteScript = await readFile(join(root, "site", "assets", "site.js"), "utf8");
+// Exercise the shared detail template for every published IP in both locales.
+const renderSource = siteScript.slice(siteScript.indexOf("async function renderBrand()"), siteScript.indexOf("function renderBrandFailure("));
+for (const locale of ["zh", "en"]) {
+  for (const entry of JSON.parse(await readFile(join(root, "config/brands.json"), "utf8"))) {
+    const brand = JSON.parse(await readFile(join(root, "site/api/brands", `${entry.slug}.json`), "utf8"));
+    const renderedAssets = [];
+    const page = { innerHTML: "", setAttribute() {}, querySelector() { return null; } };
+    const context = vm.createContext({
+      URL, URLSearchParams, document: { querySelector() { return null; } },
+      location: { search: `?brand=${entry.slug}`, origin: "https://apuch.art" },
+      $: () => page, loadJson: async () => brand, currentLocale: locale,
+      mainBrand: () => ({ name: entry.slug }), localizedBrand: () => ({ intro: "" }),
+      escapeHtml: (s) => String(s ?? "").replaceAll('"', "&quot;"), t: (s) => s,
+      themeClass: () => "", themeStyle: () => "", statusLabel: () => "",
+      preferredBrandImage: () => null, githubIcon: () => "", swatches: () => "",
+      responsiveImageAttributes: () => "", imageDimensionAttributes: () => "", assetActions: () => "",
+      brandAssetStrip: (images) => { renderedAssets.push(...images); return images.length ? "assets" : ""; },
+      adobeAssetPanel: () => "", brandAdvancedDetails: () => "",
+      setupCopyButtons() {}, setupAssetCopyButtons() {},
+    });
+    await vm.runInContext(`${renderSource}; renderBrand()`, context);
+    assert.match(page.innerHTML, new RegExp(`href="${entry.designSystemUrl}"[^>]*>.*GitHub`), entry.slug);
+    assert.ok(page.innerHTML.includes('id="brand-assets"'), entry.slug);
+    assert.equal(page.innerHTML.includes('class="brand-more-assets"'), brand.images.length > 6, entry.slug);
+    assert.deepEqual(renderedAssets, brand.images, `asset preservation: ${entry.slug}`);
+  }
+}
 if (!siteScript.includes("function minimalReferenceText") || !siteScript.includes("data-copy-minimal")) throw new Error("minimal_copy_missing");
 if (!siteScript.includes("brand.designSystemUrl || brand.source?.github") || !siteScript.includes('"Design system" : "设计系统"')) throw new Error("brand_github_link_missing");
 if (!siteScript.includes("hero-index-github") || !siteScript.includes("brand.source.github")) throw new Error("hero_index_github_link_missing");
