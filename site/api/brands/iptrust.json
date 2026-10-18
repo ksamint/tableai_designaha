@@ -166,14 +166,25 @@
     "standalone"
   ],
   "version": {
-    "hash": "498680a80ec9173520489eca77f1247601798168",
-    "shortHash": "498680a",
-    "date": "2026-09-19T22:53:07+08:00",
-    "message": "Link every owned IP to its dedicated ksamint design-system repository",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168"
+    "hash": "5c7c158e439448b77c640563fe8f129eee650152",
+    "shortHash": "5c7c158",
+    "date": "2026-09-27T11:46:29+08:00",
+    "message": "Add IPTrust design system and tokens",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/5c7c158e439448b77c640563fe8f129eee650152"
   },
   "historyUrl": "api/history/iptrust.json",
   "history": [
+    {
+      "hash": "5c7c158e439448b77c640563fe8f129eee650152",
+      "shortHash": "5c7c158",
+      "date": "2026-09-27T11:46:29+08:00",
+      "message": "Add IPTrust design system and tokens",
+      "url": "https://github.com/ksamint/tableai_designaha/commit/5c7c158e439448b77c640563fe8f129eee650152",
+      "sourcePaths": [
+        "config/brands.json",
+        "IPTRUST"
+      ]
+    },
     {
       "hash": "498680a80ec9173520489eca77f1247601798168",
       "shortHash": "498680a",
@@ -228,25 +239,31 @@
         "config/brands.json",
         "IPTRUST"
       ]
-    },
-    {
-      "hash": "6f63b2069bcdacfd11655b35e842197792c58bb2",
-      "shortHash": "6f63b20",
-      "date": "2026-07-21T14:05:18+08:00",
-      "message": "feat: refine Sidera ink identity",
-      "url": "https://github.com/ksamint/tableai_designaha/commit/6f63b2069bcdacfd11655b35e842197792c58bb2",
-      "sourcePaths": [
-        "config/brands.json",
-        "IPTRUST"
-      ]
     }
   ],
   "publicSlug": "iptrust",
   "url": "brand.html?brand=iptrust",
   "apiUrl": "api/brands/iptrust.json",
-  "status": "placeholder",
-  "guides": [],
-  "tokens": [],
+  "status": "documented",
+  "guides": [
+    {
+      "path": "IPTRUST/IPTrust_DESIGN.md",
+      "title": "IPTrust DESIGN",
+      "format": "md",
+      "primary": false,
+      "excerpt": "岁知社 IPTrust 设计规范 高楼宾客似曾识，日光底下无新事。 本规范将已发布的品牌主题用于数字产品、品牌资料与 Agent 协作界面。品牌目录/API 是身份与色值来源；本文件提供应用规则，不替代尚未发布的官方设计指南。 1. 品牌定位 岁知社 IPTrust 面向 IP 资产可信管理、信任索引、品牌源文件治理与 Agent 可读协作。体验应表达可信、可考证、易检索与长期维护；清楚展示资产身份、来源、权限与状态。 2. 色彩 品牌 API 的精确主题色： 角色 色值 用途 藏青 10263D 品牌结构、标题、导航、重要边界 暗金 B99B5B 少量强调、当前项与重点数据 铂灰 C7CCD1 分割线、次级边界与中性状态 暖纸 F5F2EA 页面底色与大面积画布 白 FFFFFF 卡片、输入面与反白区域 墨色 17202A 正文与高可读文字 灰色 5C6570 辅助文字、说明与元数据 暖纸与白作为主要表面，形成温和、清晰的资产",
+      "text": "---\nname: 岁知社 IPTrust Design System\ncolors:\n  surface: '#F5F2EA'\n  surface-container: '#ECE8DE'\n  paper: '#FFFFFF'\n  on-surface: '#17202A'\n  on-surface-variant: '#5C6570'\n  outline: '#7A828A'\n  outline-variant: '#C7CCD1'\n  primary: '#10263D'\n  on-primary: '#FFFFFF'\n  primary-container: '#E8EDF1'\n  secondary: '#B99B5B'\n  on-secondary: '#17202A'\n  error: '#B42318'\ntypography:\n  headline-xl:\n    fontFamily: Noto Sans SC\n    fontSize: 40px\n    fontWeight: '700'\n    lineHeight: '1.2'\n  headline-lg:\n    fontFamily: Noto Sans SC\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: '1.3'\n  headline-md:\n    fontFamily: Noto Sans SC\n    fontSize: 24px\n    fontWeight: '600'\n    lineHeight: '1.4'\n  body-lg:\n    fontFamily: Noto Sans SC\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: '1.7'\n  body-md:\n    fontFamily: Noto Sans SC\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: '1.7'\n  label-sm:\n    fontFamily: Noto Sans SC\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: '1.4'\nrounded:\n  sm: 2px\n  DEFAULT: 4px\n  md: 6px\n  full: 9999px\nspacing:\n  unit: 8px\n  xs: 4px\n  sm: 8px\n  md: 16px\n  lg: 24px\n  xl: 40px\n  xxl: 80px\n  container-max: 1200px\n---\n\n# 岁知社 IPTrust 设计规范\n\n> 高楼宾客似曾识，日光底下无新事。\n\n本规范将已发布的品牌主题用于数字产品、品牌资料与 Agent 协作界面。品牌目录/API 是身份与色值来源；本文件提供应用规则，不替代尚未发布的官方设计指南。\n\n## 1. 品牌定位\n\n岁知社 IPTrust 面向 IP 资产可信管理、信任索引、品牌源文件治理与 Agent 可读协作。体验应表达可信、可考证、易检索与长期维护；清楚展示资产身份、来源、权限与状态。\n\n## 2. 色彩\n\n品牌 API 的精确主题色：\n\n| 角色 | 色值 | 用途 |\n| --- | --- | --- |\n| 藏青 | `#10263D` | 品牌结构、标题、导航、重要边界 |\n| 暗金 | `#B99B5B` | 少量强调、当前项与重点数据 |\n| 铂灰 | `#C7CCD1` | 分割线、次级边界与中性状态 |\n| 暖纸 | `#F5F2EA` | 页面底色与大面积画布 |\n| 白 | `#FFFFFF` | 卡片、输入面与反白区域 |\n| 墨色 | `#17202A` | 正文与高可读文字 |\n| 灰色 | `#5C6570` | 辅助文字、说明与元数据 |\n\n- 暖纸与白作为主要表面，形成温和、清晰的资产阅览空间。\n- 藏青承载信息层级和可信结构；暗金只用于需要注意的少量元素。\n- 铂灰用于边界和非活动状态，不用来承载小字号正文。\n- 文字与背景保持清晰对比；不要仅靠颜色表达资产权限、校验结果或风险。\n- 品牌主题没有定义的状态色仅作产品语义使用，不作为品牌主色。\n\n## 3. 字体与排版\n\n- 中文优先使用系统可用的 Noto Sans SC；回退到系统无衬线字体。不要因品牌规范引入外部字体依赖。\n- 使用清晰的标题、正文、标签层级；长说明正文行高取 1.6–1.7。\n- 将名称、来源、版本、权限和更新时间等记录元数据保持为易扫描的短行。\n- 中英混排保留原品牌名及资产 ID；不强行翻译文件名、校验值或来源标识。\n\n## 4. 布局与组件\n\n- 使用 8px 间距基准；信息密集的目录与索引可以紧凑，但分组之间保留明显层次。\n- 优先用对齐、细分隔线和留白组织内容。圆角克制（2–6px），避免把治理界面做成装饰性卡片墙。\n- 资产卡片至少清楚呈现名称和类型；有数据时展示来源、可见性、版本或校验状态。\n- 链接、按钮和选中项有明确的悬停、焦点与激活状态；键盘焦点必须可见。\n- 空状态、加载状态与失败状态应说明发生了什么以及可执行的下一步。\n\n## 5. 可信资产与 Agent 协作\n\n- 对原始资产保留来源、路径和校验信息；编辑版与原件清晰区分。\n- 只展示调用者有权访问的资料。私有素材不能复制到公开仓库或页面。\n- Agent 输出应区分已验证事实、来源记录和推断；缺失字段明确标示未知，不补造元数据。\n- 操作反馈说明结果，并在重要变更中给出资产身份与版本，方便审阅和追溯。\n\n## 6. 来源与维护\n\n- 已发布色值、品牌名称、定位与分类取自 [岁知社品牌记录](https://apuch.art/brand?brand=iptrust) 与 [品牌 API](https://apuch.art/api/brands.json) 中的 `iptrust` 记录。\n- `tokens/iptrust.tokens.json` 是可复用的设计令牌；本指南里的布局、交互和字体建议是基于当前品牌资料整理的应用规则，不代表另有一份已发布指南。\n- 更新品牌身份、官方主题色或标识时，以品牌目录/API 最新公开记录为准，并同步更新令牌与示例。\n",
+      "html": "<hr>\n<p>name: 岁知社 IPTrust Design System\ncolors:\n  surface: &#39;#F5F2EA&#39;\n  surface-container: &#39;#ECE8DE&#39;\n  paper: &#39;#FFFFFF&#39;\n  on-surface: &#39;#17202A&#39;\n  on-surface-variant: &#39;#5C6570&#39;\n  outline: &#39;#7A828A&#39;\n  outline-variant: &#39;#C7CCD1&#39;\n  primary: &#39;#10263D&#39;\n  on-primary: &#39;#FFFFFF&#39;\n  primary-container: &#39;#E8EDF1&#39;\n  secondary: &#39;#B99B5B&#39;\n  on-secondary: &#39;#17202A&#39;\n  error: &#39;#B42318&#39;\ntypography:\n  headline-xl:\n    fontFamily: Noto Sans SC\n    fontSize: 40px\n    fontWeight: &#39;700&#39;\n    lineHeight: &#39;1.2&#39;\n  headline-lg:\n    fontFamily: Noto Sans SC\n    fontSize: 32px\n    fontWeight: &#39;600&#39;\n    lineHeight: &#39;1.3&#39;\n  headline-md:\n    fontFamily: Noto Sans SC\n    fontSize: 24px\n    fontWeight: &#39;600&#39;\n    lineHeight: &#39;1.4&#39;\n  body-lg:\n    fontFamily: Noto Sans SC\n    fontSize: 18px\n    fontWeight: &#39;400&#39;\n    lineHeight: &#39;1.7&#39;\n  body-md:\n    fontFamily: Noto Sans SC\n    fontSize: 16px\n    fontWeight: &#39;400&#39;\n    lineHeight: &#39;1.7&#39;\n  label-sm:\n    fontFamily: Noto Sans SC\n    fontSize: 12px\n    fontWeight: &#39;600&#39;\n    lineHeight: &#39;1.4&#39;\nrounded:\n  sm: 2px\n  DEFAULT: 4px\n  md: 6px\n  full: 9999px\nspacing:\n  unit: 8px\n  xs: 4px\n  sm: 8px\n  md: 16px\n  lg: 24px\n  xl: 40px\n  xxl: 80px</p>\n<h2 id=\"iptrust-guide-1-container-max-1200px\">container-max: 1200px</h2>\n<h1 id=\"iptrust-guide-1-岁知社-iptrust-设计规范\">岁知社 IPTrust 设计规范</h1>\n<blockquote>\n<p>高楼宾客似曾识，日光底下无新事。</p>\n</blockquote>\n<p>本规范将已发布的品牌主题用于数字产品、品牌资料与 Agent 协作界面。品牌目录/API 是身份与色值来源；本文件提供应用规则，不替代尚未发布的官方设计指南。</p>\n<h2 id=\"iptrust-guide-1-1-品牌定位\">1. 品牌定位</h2>\n<p>岁知社 IPTrust 面向 IP 资产可信管理、信任索引、品牌源文件治理与 Agent 可读协作。体验应表达可信、可考证、易检索与长期维护；清楚展示资产身份、来源、权限与状态。</p>\n<h2 id=\"iptrust-guide-1-2-色彩\">2. 色彩</h2>\n<p>品牌 API 的精确主题色：</p>\n<table>\n<thead>\n<tr>\n<th>角色</th>\n<th>色值</th>\n<th>用途</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>藏青</td>\n<td><code>#10263D</code></td>\n<td>品牌结构、标题、导航、重要边界</td>\n</tr>\n<tr>\n<td>暗金</td>\n<td><code>#B99B5B</code></td>\n<td>少量强调、当前项与重点数据</td>\n</tr>\n<tr>\n<td>铂灰</td>\n<td><code>#C7CCD1</code></td>\n<td>分割线、次级边界与中性状态</td>\n</tr>\n<tr>\n<td>暖纸</td>\n<td><code>#F5F2EA</code></td>\n<td>页面底色与大面积画布</td>\n</tr>\n<tr>\n<td>白</td>\n<td><code>#FFFFFF</code></td>\n<td>卡片、输入面与反白区域</td>\n</tr>\n<tr>\n<td>墨色</td>\n<td><code>#17202A</code></td>\n<td>正文与高可读文字</td>\n</tr>\n<tr>\n<td>灰色</td>\n<td><code>#5C6570</code></td>\n<td>辅助文字、说明与元数据</td>\n</tr>\n</tbody></table>\n<ul>\n<li>暖纸与白作为主要表面，形成温和、清晰的资产阅览空间。</li>\n<li>藏青承载信息层级和可信结构；暗金只用于需要注意的少量元素。</li>\n<li>铂灰用于边界和非活动状态，不用来承载小字号正文。</li>\n<li>文字与背景保持清晰对比；不要仅靠颜色表达资产权限、校验结果或风险。</li>\n<li>品牌主题没有定义的状态色仅作产品语义使用，不作为品牌主色。</li>\n</ul>\n<h2 id=\"iptrust-guide-1-3-字体与排版\">3. 字体与排版</h2>\n<ul>\n<li>中文优先使用系统可用的 Noto Sans SC；回退到系统无衬线字体。不要因品牌规范引入外部字体依赖。</li>\n<li>使用清晰的标题、正文、标签层级；长说明正文行高取 1.6–1.7。</li>\n<li>将名称、来源、版本、权限和更新时间等记录元数据保持为易扫描的短行。</li>\n<li>中英混排保留原品牌名及资产 ID；不强行翻译文件名、校验值或来源标识。</li>\n</ul>\n<h2 id=\"iptrust-guide-1-4-布局与组件\">4. 布局与组件</h2>\n<ul>\n<li>使用 8px 间距基准；信息密集的目录与索引可以紧凑，但分组之间保留明显层次。</li>\n<li>优先用对齐、细分隔线和留白组织内容。圆角克制（2–6px），避免把治理界面做成装饰性卡片墙。</li>\n<li>资产卡片至少清楚呈现名称和类型；有数据时展示来源、可见性、版本或校验状态。</li>\n<li>链接、按钮和选中项有明确的悬停、焦点与激活状态；键盘焦点必须可见。</li>\n<li>空状态、加载状态与失败状态应说明发生了什么以及可执行的下一步。</li>\n</ul>\n<h2 id=\"iptrust-guide-1-5-可信资产与-agent-协作\">5. 可信资产与 Agent 协作</h2>\n<ul>\n<li>对原始资产保留来源、路径和校验信息；编辑版与原件清晰区分。</li>\n<li>只展示调用者有权访问的资料。私有素材不能复制到公开仓库或页面。</li>\n<li>Agent 输出应区分已验证事实、来源记录和推断；缺失字段明确标示未知，不补造元数据。</li>\n<li>操作反馈说明结果，并在重要变更中给出资产身份与版本，方便审阅和追溯。</li>\n</ul>\n<h2 id=\"iptrust-guide-1-6-来源与维护\">6. 来源与维护</h2>\n<ul>\n<li>已发布色值、品牌名称、定位与分类取自 <a href=\"https://apuch.art/brand?brand=iptrust\">岁知社品牌记录</a> 与 <a href=\"https://apuch.art/api/brands.json\">品牌 API</a> 中的 <code>iptrust</code> 记录。</li>\n<li><code>tokens/iptrust.tokens.json</code> 是可复用的设计令牌；本指南里的布局、交互和字体建议是基于当前品牌资料整理的应用规则，不代表另有一份已发布指南。</li>\n<li>更新品牌身份、官方主题色或标识时，以品牌目录/API 最新公开记录为准，并同步更新令牌与示例。</li>\n</ul>\n"
+    }
+  ],
+  "tokens": [
+    {
+      "path": "IPTRUST/tokens/iptrust.tokens.json",
+      "title": "Iptrust.Tokens",
+      "format": "json",
+      "text": "{\n  \"$description\": \"岁知社 IPTrust design tokens in W3C DTCG format. Published brand palette with semantic aliases for trusted IP asset stewardship and agent-readable collaboration.\",\n  \"color\": {\n    \"$type\": \"color\",\n    \"navy\": { \"$value\": \"#10263D\", \"$description\": \"Published primary — brand structure, headings, navigation\" },\n    \"navy-soft\": { \"$value\": \"#1B3854\", \"$description\": \"Derived hover and secondary navy\" },\n    \"navy-container\": { \"$value\": \"#E8EDF1\", \"$description\": \"Derived pale navy container\" },\n    \"gold\": { \"$value\": \"#B99B5B\", \"$description\": \"Published accent — sparing emphasis and key data\" },\n    \"gold-deep\": { \"$value\": \"#725C2F\", \"$description\": \"Derived readable gold text on light surfaces\" },\n    \"gold-mist\": { \"$value\": \"#B99B5B14\", \"$description\": \"Derived subtle accent surface\" },\n    \"platinum\": { \"$value\": \"#C7CCD1\", \"$description\": \"Published secondary — dividers and neutral boundaries\" },\n    \"white\": { \"$value\": \"#FFFFFF\", \"$description\": \"Published paper — cards and input surfaces\" },\n    \"warm-paper\": { \"$value\": \"#F5F2EA\", \"$description\": \"Published surface — page background\" },\n    \"warm-paper-deep\": { \"$value\": \"#ECE8DE\", \"$description\": \"Derived elevated surface\" },\n    \"ink\": { \"$value\": \"#17202A\", \"$description\": \"Published ink — body text\" },\n    \"muted\": { \"$value\": \"#5C6570\", \"$description\": \"Published muted — supporting text and metadata\" },\n    \"outline\": { \"$value\": \"#7A828A\", \"$description\": \"Derived accessible boundary\" },\n    \"error\": { \"$value\": \"#B42318\", \"$description\": \"Functional error and destructive state\" }\n  },\n  \"semantic\": {\n    \"$type\": \"color\",\n    \"$description\": \"Role-based aliases for interface use.\",\n    \"background\": { \"$value\": \"{color.warm-paper}\" },\n    \"surface\": { \"$value\": \"{color.white}\" },\n    \"surface-raised\": { \"$value\": \"{color.warm-paper-deep}\" },\n    \"text\": { \"$value\": \"{color.ink}\" },\n    \"text-strong\": { \"$value\": \"{color.navy}\" },\n    \"text-muted\": { \"$value\": \"{color.muted}\" },\n    \"border\": { \"$value\": \"{color.platinum}\" },\n    \"border-strong\": { \"$value\": \"{color.navy}\" },\n    \"accent\": { \"$value\": \"{color.gold}\" },\n    \"accent-text\": { \"$value\": \"{color.gold-deep}\" },\n    \"error\": { \"$value\": \"{color.error}\" }\n  },\n  \"font\": {\n    \"family\": {\n      \"$type\": \"fontFamily\",\n      \"sans\": { \"$value\": [\"Noto Sans SC\", \"system-ui\", \"sans-serif\"], \"$description\": \"Chinese-first system font stack; no external font dependency\" }\n    },\n    \"weight\": {\n      \"$type\": \"fontWeight\",\n      \"body\": { \"$value\": 400 },\n      \"label\": { \"$value\": 600 },\n      \"heading\": { \"$value\": 600 },\n      \"display\": { \"$value\": 700 }\n    },\n    \"size\": {\n      \"$type\": \"dimension\",\n      \"headline-xl\": { \"$value\": \"40px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.2\", \"iptrust.weight\": 700 } },\n      \"headline-lg\": { \"$value\": \"32px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.3\", \"iptrust.weight\": 600 } },\n      \"headline-md\": { \"$value\": \"24px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.4\", \"iptrust.weight\": 600 } },\n      \"body-lg\": { \"$value\": \"18px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.7\" } },\n      \"body-md\": { \"$value\": \"16px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.7\" } },\n      \"label-sm\": { \"$value\": \"12px\", \"$extensions\": { \"iptrust.lineHeight\": \"1.4\", \"iptrust.weight\": 600 } }\n    }\n  },\n  \"space\": {\n    \"$type\": \"dimension\",\n    \"$description\": \"8px-based spacing grid.\",\n    \"xs\": { \"$value\": \"4px\" },\n    \"sm\": { \"$value\": \"8px\" },\n    \"md\": { \"$value\": \"16px\" },\n    \"lg\": { \"$value\": \"24px\" },\n    \"xl\": { \"$value\": \"40px\" },\n    \"xxl\": { \"$value\": \"80px\" },\n    \"container-max\": { \"$value\": \"1200px\" }\n  },\n  \"radius\": {\n    \"$type\": \"dimension\",\n    \"$description\": \"Restrained radii for a reliable records interface.\",\n    \"sm\": { \"$value\": \"2px\" },\n    \"default\": { \"$value\": \"4px\" },\n    \"md\": { \"$value\": \"6px\" },\n    \"full\": { \"$value\": \"9999px\" }\n  }\n}\n"
+    }
+  ],
   "images": [
     {
       "assetId": "iptrust-hero-iptrust-brand-hero-63c7b53792f9",
@@ -1910,7 +1927,9 @@
       }
     ]
   },
-  "editablePaths": [],
+  "editablePaths": [
+    "IPTRUST/IPTrust_DESIGN.md"
+  ],
   "source": {
     "github": "https://github.com/ksamint/tableai_designaha/tree/main/IPTRUST",
     "folder": "IPTRUST"

@@ -120,6 +120,14 @@
     "url": "brand.html?brand=iptrust"
   },
   {
+    "type": "guide",
+    "slug": "iptrust",
+    "title": "IPTrust DESIGN",
+    "subtitle": "岁知社 · IPTRUST/IPTrust_DESIGN.md",
+    "text": "岁知社 IPTrust 设计规范 高楼宾客似曾识，日光底下无新事。 本规范将已发布的品牌主题用于数字产品、品牌资料与 Agent 协作界面。品牌目录/API 是身份与色值来源；本文件提供应用规则，不替代尚未发布的官方设计指南。 1. 品牌定位 岁知社 IPTrust 面向 IP 资产可信管理、信任索引、品牌源文件治理与 Agent 可读协作。体验应表达可信、可考证、易检索与长期维护；清楚展示资产身份、来源、权限与状态。 2. 色彩 品牌 API 的精确主题色： 角色 色值 用途 藏青 10263D 品牌结构、标题、导航、重要边界 暗金 B99B5B 少量强调、当前项与重点数据 铂灰 C7CCD1 分割线、次级边界与中性状态 暖纸 F5F2EA 页面底色与大面积画布 白 FFFFFF 卡片、输入面与反白区域 墨色 17202A 正文与高可读文字 灰色 5C6570 辅助文字、说明与元数据 暖纸与白作为主要表面，形成温和、清晰的资产",
+    "url": "brand.html?brand=iptrust"
+  },
+  {
     "type": "ip",
     "slug": "fengzhi",
     "title": "峰值永造局",

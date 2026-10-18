@@ -18,7 +18,7 @@ These are initial snapshots. Subsequent changes in a design-system repository do
 | 岁知社 | [dsys_iptrust](https://github.com/ksamint/dsys_iptrust) |
 | 峰值永造局 | [dsys_fengzhi](https://github.com/ksamint/dsys_fengzhi) |
 | Axisee | [dsys_axisee](https://github.com/ksamint/dsys_axisee) |
-| 侍天 - 智慧餐饮 | [dsys_tiansight01](https://github.com/ksamint/dsys_tiansight01) |
+| 侍天 - 智慧餐饮 | [dsys_tiansight02](https://github.com/ksamint/dsys_tiansight02) |
 | 1stepmore | [dsys_1stepmore](https://github.com/ksamint/dsys_1stepmore) |
 | AGEM | [dsys_agem](https://github.com/ksamint/dsys_agem) |
 | RGD | [dsys_rgd](https://github.com/ksamint/dsys_rgd) |

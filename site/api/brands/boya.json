@@ -165,11 +165,11 @@
     "standalone"
   ],
   "version": {
-    "hash": "498680a80ec9173520489eca77f1247601798168",
-    "shortHash": "498680a",
-    "date": "2026-09-19T22:53:07+08:00",
-    "message": "Link every owned IP to its dedicated ksamint design-system repository",
-    "url": "https://github.com/ksamint/tableai_designaha/commit/498680a80ec9173520489eca77f1247601798168"
+    "hash": "5c7c158e439448b77c640563fe8f129eee650152",
+    "shortHash": "5c7c158",
+    "date": "2026-09-27T11:46:29+08:00",
+    "message": "Add IPTrust design system and tokens",
+    "url": "https://github.com/ksamint/tableai_designaha/commit/5c7c158e439448b77c640563fe8f129eee650152"
   },
   "historyUrl": "api/history/boya.json",
   "history": [
