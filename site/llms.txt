@@ -104,7 +104,7 @@ Brands:
 - 岁知社 (iptrust; assetKey iptrust): /api/brands/iptrust.json · design system https://github.com/ksamint/dsys_iptrust · mainLocale CN · palette #10263D / #B99B5B
 - 峰值永造局 (fengzhi; assetKey fengzhi): /api/brands/fengzhi.json · design system https://github.com/ksamint/dsys_fengzhi · mainLocale CN · palette #1A1714 / #A47B36
 - Axisee (axisee; assetKey axisee): /api/brands/axisee.json · design system https://github.com/ksamint/dsys_axisee · mainLocale EN · palette #1A2B4A / #B12137
-- 侍天 - 智慧餐饮 (tiansight; assetKey sidera): /api/brands/tiansight.json · design system https://github.com/ksamint/dsys_tiansight01 · mainLocale CN · palette #EFE6D2 / #76551F
+- 侍天 - 智慧餐饮 (tiansight; assetKey sidera): /api/brands/tiansight.json · design system https://github.com/ksamint/dsys_tiansight02 · mainLocale CN · palette #EFE6D2 / #76551F
 - 1stepmore (1stepmore; assetKey 1stepmore): /api/brands/1stepmore.json · design system https://github.com/ksamint/dsys_1stepmore · mainLocale EN · palette #123047 / #C89B3C
 - 游赋社 (agem; assetKey agem): /api/brands/agem.json · design system https://github.com/ksamint/dsys_agem · mainLocale CN · palette #155E75 / #D9823B
 - 燃古豋 (rgd; assetKey rgd): /api/brands/rgd.json · design system https://github.com/ksamint/dsys_rgd · mainLocale CN · palette #E06B3A / #C8A15A

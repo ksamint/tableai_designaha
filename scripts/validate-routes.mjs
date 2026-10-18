@@ -50,7 +50,7 @@ const brands = JSON.parse(await readFile(join(root, "config/brands.json"), "utf8
 const ips = JSON.parse(await readFile(join(root, "site/api/ips.json"), "utf8"));
 const repositories = new Set();
 for (const brand of brands) {
-  const expected = `https://github.com/ksamint/${brand.slug === "sidera" ? "dsys_tiansight01" : `dsys_${brand.slug}`}`;
+  const expected = `https://github.com/ksamint/${brand.slug === "sidera" ? "dsys_tiansight02" : `dsys_${brand.slug}`}`;
   if (brand.designSystemUrl !== expected || repositories.has(expected)) throw new Error(`design_system_repository:${brand.slug}`);
   repositories.add(expected);
   const payload = JSON.parse(await readFile(join(root, `site/api/brands/${brand.publicSlug || brand.slug}.json`), "utf8"));
